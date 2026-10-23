@@ -1,0 +1,27 @@
+{
+  "name": "NQ Signal \u00b7 SignalBrief",
+  "short_name": "NQ Signal",
+  "description": "Daily Nasdaq-100 futures (NQ) macro signal for the 9:30 AM ET open.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NQ Signal">
+<meta name="application-name" content="NQ Signal">
+<meta name="theme-color" content="#d97706">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png">
+<link rel="manifest" href="../manifest.json">
+<title>NQ STAND ASIDE · Tuesday, Oct 20, 2026</title>
+<style>
+:root{--long:#16a34a;--long-bg:#ecfdf3;--short:#dc2626;--short-bg:#fef2f2;--aside:#d97706;--aside-bg:#fffbeb;
+--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--bg:#f1f5f9}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;-webkit-text-size-adjust:100%}
+.wrap{max-width:480px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 14px) 14px calc(env(safe-area-inset-bottom) + 36px)}
+.app{display:flex;align-items:center;justify-content:space-between;margin:2px 4px 12px}
+.brand{font-weight:800;letter-spacing:-.02em;font-size:17px}.brand span{color:var(--muted);font-weight:600}
+.ticker{font-size:12px;font-weight:700;background:#0f172a;color:#fff;padding:4px 9px;border-radius:999px}
+.banner{border-radius:24px;padding:20px 18px 16px;color:#fff;margin-bottom:14px;box-shadow:0 10px 28px rgba(15,23,42,.18)}
+.banner.long{background:linear-gradient(150deg,#22c55e,#15803d)}
+.banner.short{background:linear-gradient(150deg,#ef4444,#b91c1c)}
+.banner.aside{background:linear-gradient(150deg,#f59e0b,#b45309)}
+.b-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;opacity:.92}
+.b-sig{font-size:52px;font-weight:900;letter-spacing:-.04em;line-height:1;margin:14px 0 6px}
+.b-sub{font-size:15px;font-weight:600;opacity:.95}
+.b-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.2);border-radius:999px;padding:5px 10px;font-size:12.5px;font-weight:700}
+.bars{display:inline-flex;gap:2px;align-items:flex-end}.bars i{display:block;width:4px;border-radius:2px;background:#fff;opacity:.35}
+.bars i:nth-child(1){height:6px}.bars i:nth-child(2){height:9px}.bars i:nth-child(3){height:12px}.bars i.on{opacity:1}
+.flip{margin-top:14px;background:rgba(255,255,255,.14);border-radius:16px;padding:10px 12px;font-size:13px}
+.flip div{margin:3px 0}.flip b{display:inline-block;min-width:52px}
+.stale{display:none;background:#0f172a;color:#fde68a;border-radius:14px;padding:10px 12px;font-size:13px;font-weight:600;margin-bottom:12px}
+.card{background:#fff;border-radius:22px;box-shadow:0 1px 2px rgba(15,23,42,.05),0 8px 24px rgba(15,23,42,.06);padding:18px;margin-bottom:14px;border:1px solid #eef2f7}
+.eyebrow{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.title{font-size:20px;font-weight:800;letter-spacing:-.02em;margin:4px 0 2px}.sub{font-size:13px;color:var(--muted)}
+.headline{font-size:16px;font-weight:750;margin:12px 0 0}
+.thesis{font-size:15px;margin:10px 0 14px;color:#1e293b}
+.cutoff{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}.cutoff b{color:var(--ink)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.stat{background:#f8fafc;border:1px solid #eef2f7;border-radius:14px;padding:10px 11px}
+.stat .k{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.stat .v{font-size:16px;font-weight:800;margin-top:2px}.stat .d{font-size:11.5px;color:var(--muted)}
+.up{color:var(--long)}.down{color:var(--short)}
+.levels h3,.src h3,.arch h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+.lv{display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.lv:first-of-type{border-top:0}
+.lv .tag{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;border-radius:6px;padding:3px 6px;min-width:84px;text-align:center;background:#f1f5f9;color:var(--muted)}
+.lv .tag.long{background:var(--long-bg);color:var(--long)}.lv .tag.short{background:var(--short-bg);color:var(--short)}
+.lv .tag.pivot{background:var(--aside-bg);color:var(--aside)}
+.lv .lbl{flex:1;font-size:13.5px}.lv .lbl small{display:block;color:var(--muted);font-size:12px}
+.lv .val{font-weight:800;font-variant-numeric:tabular-nums;font-size:14.5px;white-space:nowrap}
+details{background:#fff;border:1px solid #eef2f7;border-radius:18px;margin-bottom:10px;box-shadow:0 1px 2px rgba(15,23,42,.04)}
+summary{list-style:none;cursor:pointer;padding:15px 16px;display:flex;align-items:center;gap:12px;font-weight:750;font-size:15.5px}
+summary::-webkit-details-marker{display:none}
+.num{font-size:12px;font-weight:800;color:var(--muted);background:#f1f5f9;border-radius:8px;padding:4px 7px}
+.chev{margin-left:auto;transition:transform .2s;color:var(--muted)}details[open] .chev{transform:rotate(180deg)}
+.body{padding:0 16px 15px;font-size:14.5px;color:#334155}.body ul{margin:0;padding-left:18px}.body li{margin:0 0 7px}
+sup a{color:#2563eb;text-decoration:none;font-weight:700;font-size:10.5px}
+.src ol{margin:0;padding-left:20px;font-size:12.5px;color:#475569}.src li{margin-bottom:6px;word-break:break-word}
+.src a,.arch a{color:#2563eb;text-decoration:none}
+.gaps{font-size:12.5px;color:#475569;margin-top:10px;background:#f8fafc;border-radius:12px;padding:10px 12px;border:1px dashed #cbd5e1}
+.arch ul{list-style:none;margin:0;padding:0;font-size:14px}.arch li{display:flex;justify-content:space-between;padding:7px 0;border-top:1px solid var(--line)}
+.arch li:first-child{border-top:0}.arch .s{font-size:11px;font-weight:800;letter-spacing:.05em}
+.s.long{color:var(--long)}.s.short{color:var(--short)}.s.aside{color:var(--aside)}
+.back{display:inline-block;margin:0 4px 12px;font-size:14px;font-weight:700;color:#2563eb;text-decoration:none}
+.disc{font-size:11.5px;color:var(--muted);text-align:center;margin-top:14px;padding:0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">‹ Today's brief</a>
+  <div class="app"><div class="brand">SignalBrief <span>· NQ</span></div><div class="ticker">NQ · Nasdaq-100 E-mini</div></div>
+  <div id="stale" class="stale"></div>
+  <div class="banner aside">
+    <div class="b-top"><span>Signal · 9:30 AM ET open</span><span>Tue Oct 20</span></div>
+    <div class="b-sig">STAND ASIDE</div>
+    <div class="b-sub">Bearish lean bias · No edge: wait for a trigger</div>
+    <div class="b-meta">
+      <span class="chip"><span class="bars"><i class="on"></i><i class="on"></i><i class=""></i></span>Medium conviction</span>
+      <span class="chip">As of Tue Oct 20, 2026, 8:55 AM EDT</span>
+    </div>
+    <div class="flip"><div><b>→ LONG</b> NDX gets back above Monday&#x27;s close (29,529; NQ ≈ 29,720, flat on the day) and holds there after 9:30 while the 10-year stays below ~5.10%.</div><div><b>→ SHORT</b> NQ breaks the overnight low (~29,478) and NDX can&#x27;t get back above Monday&#x27;s low (29,461) in the first 30 min, especially if the 10-year rebounds above ~5.14% or Brent pushes further above $111.</div></div>
+  </div>
+
+  <div class="card">
+    <div class="eyebrow">New York AM Macro Outlook</div>
+    <div class="title">Tuesday, Oct 20, 2026</div>
+    <div class="sub">Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window</div>
+    <div class="headline">AI selling is back but yields dropped after weak housing starts: NQ −0.5% pre-open, no clean edge</div>
+    <p class="thesis">Monday&#x27;s AI-led bounce is fading. Nasdaq-100 futures were around 29,536–29,564 at 8:38–8:42 AM ET, down ~0.5–0.6% from Monday&#x27;s 29,722.5 settle<sup><a href="#s1">1</a>,<a href="#s7">7</a></sup>. Chip and AI-infrastructure stocks are leading the drop again (Micron, Sandisk −3%, CoreWeave −4%+, SMH −1%) after Korea&#x27;s Elice fell ~30% on its debut and the Kospi lost 3.7%<sup><a href="#s3">3</a>,<a href="#s4">4</a>,<a href="#s6">6</a></sup>. Brent is at a five-month high above $110 on Houthi attacks on Saudi targets<sup><a href="#s4">4</a>,<a href="#s6">6</a>,<a href="#s13">13</a></sup>. The offset came at 8:30 AM: September housing starts fell to <b>1.221M vs ~1.30M expected</b> (permits 1.400M vs 1.39M)<sup><a href="#s3">3</a>,<a href="#s5">5</a></sup>. The 10-year dropped to ~5.09% from Monday&#x27;s 5.14% close, the dollar index eased to ~101.7, and NQ bounced ~120 points off its overnight low<sup><a href="#s7">7</a>,<a href="#s10">10</a></sup>. Markets price an October hike at only ~16–17% but still expect a December hike (Fed in blackout before Oct 27–28)<sup><a href="#s8">8</a>,<a href="#s9">9</a>,<a href="#s12">12</a></sup>. Futures imply an open below Monday&#x27;s NDX low (29,461). Weak AI sentiment points down, but falling yields push the other way, and Netflix/SpaceX don&#x27;t report until after the close<sup><a href="#s4">4</a></sup>. I lean bearish but <b>see no clean edge for the open</b>. Let the first 15–30 minutes decide.</p>
+    <div class="cutoff"><b>Evidence cutoff:</b> Tue Oct 20, 2026, 8:55 AM ET (9:55 AM Atlantic). Latest futures quotes used: 8:38 AM ET (Markets Insider), 8:42 AM ET (Yahoo, may be delayed).</div>
+    <div class="stats"><div class="stat"><div class="k">NQ futures (pre-mkt)</div><div class="v">29,536.50</div><div class="d"><span class="down">−186.00 / −0.63%</span> · 8:38 AM ET; Yahoo 29,563.75 at 8:42</div></div><div class="stat"><div class="k">NQ overnight range</div><div class="v">29,478.5 – 29,736.75</div><div class="d">Low printed 8:30 AM ET</div></div><div class="stat"><div class="k">NDX close (Mon)</div><div class="v">29,529.35</div><div class="d"><span class="up">H 29,788.76 / L 29,461.32</span> · +1.17% on the day</div></div><div class="stat"><div class="k">US 10-yr yield</div><div class="v">~5.09%</div><div class="d"><span class="up">≈ −5 bp</span> · vs 5.14% Mon close; after housing data</div></div><div class="stat"><div class="k">Housing starts (Sep)</div><div class="v">1.221M</div><div class="d"><span class="down">vs ~1.30M est.</span> · Permits 1.400M vs 1.39M est.</div></div><div class="stat"><div class="k">Dollar index</div><div class="v">~101.72</div><div class="d"><span class="flat">−0.25%</span> · vs 101.98</div></div><div class="stat"><div class="k">Brent / WTI (Dec)</div><div class="v">~$110.5–111 / ~$99.8</div><div class="d"><span class="flat">+0.9–1.7% / +1.3%</span> · Nov WTI (expiring) ~$104</div></div><div class="stat"><div class="k">Oct 28 hike odds</div><div class="v">~16–17%</div><div class="d"><span class="flat">Dec hike ~94% cum.</span> · Fed funds 3.75–4.00%</div></div></div>
+  </div>
+
+  <div class="card levels"><h3>Key levels</h3><div class="lv"><span class="tag resistance">resistance</span><span class="lbl">Monday high (NDX)<small>Bounce high; ~1.4% above implied open</small></span><span class="val">29,788.76</span></div><div class="lv"><span class="tag long">long</span><span class="lbl">Monday close (NDX)<small>Reclaim &amp; hold after 9:30 → LONG trigger (NQ ≈ 29,720)</small></span><span class="val">29,529.35</span></div><div class="lv"><span class="tag pivot">pivot</span><span class="lbl">Monday low (NDX)<small>Implied open sits just below; reclaim vs reject decides</small></span><span class="val">29,461.32</span></div><div class="lv"><span class="tag short">short</span><span class="lbl">NQ overnight low<small>Break → SHORT trigger (≈ NDX 29,285)</small></span><span class="val">29,478.5</span></div><div class="lv"><span class="tag support">support</span><span class="lbl">Prior close, Fri (NDX)<small>Bounce origin / next downside magnet</small></span><span class="val">29,187.55</span></div><div class="lv"><span class="tag pivot">pivot</span><span class="lbl">US 10-yr yield<small>Toward 5.05% = supportive; back above 5.14% = bearish</small></span><span class="val">5.05% / 5.14%</span></div></div>
+  <details open><summary><span class="num">01</span>Why this window<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body"><ul><li><b>The data is out and it softened yields.</b> September housing starts came in at 1.221M (−5.2% m/m) vs ~1.30M consensus, and single-family starts were 859K. Permits were 1.400M vs 1.39M. The 10-year fell to ~5.09% and NQ bounced ~120 points off its 8:30 AM low<sup><a href="#s3">3</a>,<a href="#s5">5</a>,<a href="#s7">7</a></sup>. Pending home sales are due at 10:00 AM ET (consensus ~0.0%)<sup><a href="#s11">11</a></sup>.</li><li><b>AI risk-off is global this morning.</b> The Kospi fell 3.73% and SK Hynix 4.2%. European tech was down 1.4% and ABB fell ~6% despite record orders. In the US premarket, Micron, Sandisk, Intel and AMD were down 2–3%, CoreWeave/Nebius were down ~4–5%, and Apple was down ~1.2%<sup><a href="#s3">3</a>,<a href="#s4">4</a>,<a href="#s6">6</a></sup>.</li><li><b>Implied gap below Monday&#x27;s low.</b> NQ traded ~193 points over cash NDX at Monday&#x27;s settle (29,722.5 vs 29,529.35). On that basis ~29,550 NQ implies an NDX open near 29,355, just below Monday&#x27;s 29,461 low and about halfway back down Monday&#x27;s bounce from 29,188<sup><a href="#s2">2</a>,<a href="#s7">7</a></sup>. That&#x27;s an approximate basis estimate, not a quote.</li><li><b>No Fed or megacap catalyst before the close.</b> The Fed is in its quiet period before the Oct 27–28 FOMC. Netflix and SpaceX report after Tuesday&#x27;s close, and Meta/Tesla report Wednesday. GM&#x27;s −6–7% premarket drop (on a guidance narrowing) is only a small drag on the Nasdaq<sup><a href="#s3">3</a>,<a href="#s4">4</a>,<a href="#s12">12</a></sup>.</li></ul></div></details><details open><summary><span class="num">02</span>Opposing case<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body"><ul><li><b>Bull case:</b> Yields are falling, not rising (−5 bp after the soft housing print), the dollar is weaker, and October hike odds are only ~16–17%. Nvidia is barely lower (−0.6%), and futures are already ~120 points off the overnight low. Gap-downs into Monday&#x27;s range after a strong bounce often get bought, and dip buyers stepped in hard Monday<sup><a href="#s3">3</a>,<a href="#s6">6</a>,<a href="#s7">7</a>,<a href="#s8">8</a></sup>.</li><li><b>Bear case:</b> Monday&#x27;s bounce looks like a one-day relief rally. Selling is spreading from Asia and Europe into US chips, and CoreWeave&#x27;s credit (distressed CDS, high Oracle bond yields) is still stressed. Brent at $110–111 keeps the inflation/December-hike story alive. A clean break of the overnight low would likely target Friday&#x27;s 29,188 NDX close<sup><a href="#s3">3</a>,<a href="#s4">4</a>,<a href="#s6">6</a>,<a href="#s13">13</a></sup>.</li></ul></div></details><details open><summary><span class="num">03</span>What would change it<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body"><ul><li><b>Flip to LONG:</b> NDX gets back above Monday&#x27;s close (29,529; NQ ≈ 29,720) and holds it after 9:30 AM, with the 10-year staying below ~5.10% and chips (SMH) turning green. Stronger: the 10-year moves toward 5.05%.</li><li><b>Flip to SHORT:</b> NQ breaks the overnight low (~29,478, ≈ NDX 29,285) and NDX stays below Monday&#x27;s low (29,461) through the first 30 minutes. Also counts: the 10-year rebounds through ~5.14% or Brent extends above ~$111.5 on Gulf/Houthi headlines.</li><li><b>Wildcards:</b> The 10:00 AM pending home sales print, any AI-financing or CoreWeave credit headline, unscheduled Fed/Warsh comments despite the blackout, and Middle East oil headlines<sup><a href="#s3">3</a>,<a href="#s4">4</a>,<a href="#s11">11</a></sup>.</li></ul></div></details>
+
+  <div class="card src"><h3>Sources</h3><ol><li id="s1">Markets Insider, US futures quotes (NASDAQ 100 Futures 29,536.50, −186.00 / −0.63%, 8:38 AM ET; oil quotes). <a href="https://markets.businessinsider.com/premarket" target="_blank" rel="noopener">markets.businessinsider.com/premarket</a></li><li id="s2">Yahoo Finance, NASDAQ-100 (^NDX) historical data: Mon Oct 19 H 29,788.76 / L 29,461.32 / C 29,529.35; Fri Oct 16 C 29,187.55. <a href="https://finance.yahoo.com/quote/%5ENDX/history/" target="_blank" rel="noopener">finance.yahoo.com/quote/^NDX/history</a></li><li id="s3">CNBC, &quot;Stock futures are mixed as chipmakers come under pressure: Live updates&quot; (updated Oct 20, 8:44 AM ET): housing starts vs Dow Jones consensus, premarket movers, oil. <a href="https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html" target="_blank" rel="noopener">cnbc.com</a></li><li id="s4">Reuters via StreetInsider, &quot;Nasdaq futures fall as oil prices jump, key earnings loom&quot; (Oct 20, 6:08 AM ET; NQ −0.62% at 7:06 AM; Netflix/SpaceX after Tuesday close, Meta/Tesla Wednesday). <a href="https://www.streetinsider.com/General+News/Nasdaq+futures+fall+as+oil+prices+jump%2C+key+earnings+loom/27206044.html" target="_blank" rel="noopener">streetinsider.com</a></li><li id="s5">U.S. Census Bureau/HUD, Monthly New Residential Construction, September 2026 (released Oct 20, 8:30 AM ET). <a href="https://www.census.gov/construction/nrc/current/" target="_blank" rel="noopener">census.gov</a></li><li id="s6">Proactive Investors, &quot;MARKETS LIVE: US futures mixed as AI jitters weigh on tech stocks…&quot; (Oct 20; NQ 29,521.50 at 7:45 AM ET, DXY 101.77, Brent 111.52, Dec WTI ~98.80). <a href="https://www.proactiveinvestors.com/companies/news/1100357/markets-live-us-futures-mixed-as-ai-jitters-weigh-on-tech-stocks-ahead-of-earnings-1100357.html" target="_blank" rel="noopener">proactiveinvestors.com</a></li><li id="s7">Yahoo Finance quotes, Oct 20 ~8:36–8:42 AM ET: NQ=F 29,563.75 (prev settle 29,722.50; overnight 29,478.5–29,736.75), ^TNX 5.09 (prev 5.136), DX-Y.NYB 101.72 (prev 101.98), CL=F 99.77 (prev 98.54), BZ=F 110.48. <a href="https://finance.yahoo.com/quote/NQ%3DF/" target="_blank" rel="noopener">finance.yahoo.com/quote/NQ=F</a></li><li id="s8">FXBus, CME FedWatch summary (Oct 20): Oct hold 82.8% / +25 bp 17.2%; by Dec ≥1 hike 93.6%. <a href="https://www.fxbus.com/en/news/20261020060455122817.html" target="_blank" rel="noopener">fxbus.com</a></li><li id="s9">cdes.com, Fed rate expectations dashboard (Oct 20): futures 84% hold / 16% hike; Kalshi 85% hold. <a href="https://cdes.com/dashboards/fed-rates" target="_blank" rel="noopener">cdes.com</a></li><li id="s10">OCBC, Daily Treasury Outlook (Oct 20, 2026; Bloomberg data): 10Y UST 5.14% (+6.7 bp) Mon close, DXY 101.98, Brent 109.55. <a href="https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/pdf/daily%20treasury%20outlook/2026/dto%20201026.pdf" target="_blank" rel="noopener">ocbc.com</a></li><li id="s11">Danske Bank Research, weekly calendar 19–23 Oct 2026 (pending home sales consensus/prior). <a href="https://research.danskebank.com/link/MM161026/$file/MM_161026.pdf" target="_blank" rel="noopener">research.danskebank.com</a></li><li id="s12">Babypips, &quot;Fundies Cheat Sheet: Oct. 19–23, 2026&quot; (Fed quiet period, earnings timing). <a href="https://www.babypips.com/analysis/fundies-cheat-sheet-2026-10-19-oil-ai-earnings-yields" target="_blank" rel="noopener">babypips.com</a></li><li id="s13">WSJ, &quot;AI Selloff Returns, Oil Tops $110 a Barrel&quot; (Oct 20, 4:47 AM ET). <a href="https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70" target="_blank" rel="noopener">wsj.com</a></li></ol><div class="gaps"><b>Data notes / gaps:</b> The NQ quotes are indicative (Markets Insider is from market makers; Yahoo may be delayed ~10 min). Snapshots disagree: CNBC showed NQ −0.8% at 8:28 AM and −0.4% at 8:44 AM ET. The NDX open implied from the ~193-pt futures premium is an estimate. The 10-yr ~5.09% is Yahoo&#x27;s ^TNX at ~8:36 AM ET; other morning prints ran 5.12–5.145% before the housing data. WTI is muddied by the November contract expiring: the front Nov contract is ~$104 (CNBC $103.92), Dec is ~$99.8 (Yahoo CL=F), and Markets Insider shows $99.47 (−4%, a contract-roll artifact). The housing-starts consensus is ~1.30M per CNBC/Dow Jones. Pending home sales (10:00 AM) consensus ~0.0% comes from last week&#x27;s Danske calendar and I couldn&#x27;t re-verify it this morning. I didn&#x27;t find any US Fed speakers today (blackout). Monday&#x27;s NDX H/L/C were verified against Yahoo daily data.</div></div>
+  <div class="card arch"><h3>Archive</h3><ul><li><a href="../archive/2026-10-23.html">Friday, Oct 23, 2026</a><span class="s aside">STAND ASIDE</span></li><li><a href="../archive/2026-10-22.html">Thursday, Oct 22, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-10-20.html">Tuesday, Oct 20, 2026</a><span class="s aside">STAND ASIDE</span></li></ul></div>
+  <div class="disc">Not financial advice. For information and education only; futures trading carries substantial risk of loss. Signal is a macro bias for the morning window, not a trade instruction.<br>Built Oct 23, 2026 8:51 AM EDT.</div>
+</div>
+</body>
+</html>
