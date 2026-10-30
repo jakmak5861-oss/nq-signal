@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-20",
+  "as_of": "2026-10-20T08:55:00-04:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "STAND_ASIDE",
+  "conviction": "medium",
+  "bias": "Bearish lean",
+  "headline": "AI selling is back but yields dropped after weak housing starts: NQ −0.5% pre-open, no clean edge",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window",
+  "flip": {
+    "long": "NDX gets back above Monday's close (29,529; NQ ≈ 29,720, flat on the day) and holds there after 9:30 while the 10-year stays below ~5.10%.",
+    "short": "NQ breaks the overnight low (~29,478) and NDX can't get back above Monday's low (29,461) in the first 30 min, especially if the 10-year rebounds above ~5.14% or Brent pushes further above $111."
+  },
+  "thesis": "Monday's AI-led bounce is fading. Nasdaq-100 futures were around 29,536–29,564 at 8:38–8:42 AM ET, down ~0.5–0.6% from Monday's 29,722.5 settle [1,7]. Chip and AI-infrastructure stocks are leading the drop again (Micron, Sandisk −3%, CoreWeave −4%+, SMH −1%) after Korea's Elice fell ~30% on its debut and the Kospi lost 3.7% [3,4,6]. Brent is at a five-month high above $110 on Houthi attacks on Saudi targets [4,6,13]. The offset came at 8:30 AM: September housing starts fell to **1.221M vs ~1.30M expected** (permits 1.400M vs 1.39M) [3,5]. The 10-year dropped to ~5.09% from Monday's 5.14% close, the dollar index eased to ~101.7, and NQ bounced ~120 points off its overnight low [7,10]. Markets price an October hike at only ~16–17% but still expect a December hike (Fed in blackout before Oct 27–28) [8,9,12]. Futures imply an open below Monday's NDX low (29,461). Weak AI sentiment points down, but falling yields push the other way, and Netflix/SpaceX don't report until after the close [4]. I lean bearish but **see no clean edge for the open**. Let the first 15–30 minutes decide.",
+  "evidence_cutoff": "Tue Oct 20, 2026, 8:55 AM ET (9:55 AM Atlantic). Latest futures quotes used: 8:38 AM ET (Markets Insider), 8:42 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "29,536.50",
+      "delta": "−186.00 / −0.63%",
+      "dir": "down",
+      "note": "8:38 AM ET; Yahoo 29,563.75 at 8:42"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "29,478.5 – 29,736.75",
+      "delta": "",
+      "dir": "flat",
+      "note": "Low printed 8:30 AM ET"
+    },
+    {
+      "label": "NDX close (Mon)",
+      "value": "29,529.35",
+      "delta": "H 29,788.76 / L 29,461.32",
+      "dir": "up",
+      "note": "+1.17% on the day"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "~5.09%",
+      "delta": "≈ −5 bp",
+      "dir": "up",
+      "note": "vs 5.14% Mon close; after housing data"
+    },
+    {
+      "label": "Housing starts (Sep)",
+      "value": "1.221M",
+      "delta": "vs ~1.30M est.",
+      "dir": "down",
+      "note": "Permits 1.400M vs 1.39M est."
+    },
+    {
+      "label": "Dollar index",
+      "value": "~101.72",
+      "delta": "−0.25%",
+      "dir": "flat",
+      "note": "vs 101.98"
+    },
+    {
+      "label": "Brent / WTI (Dec)",
+      "value": "~$110.5–111 / ~$99.8",
+      "delta": "+0.9–1.7% / +1.3%",
+      "dir": "flat",
+      "note": "Nov WTI (expiring) ~$104"
+    },
+    {
+      "label": "Oct 28 hike odds",
+      "value": "~16–17%",
+      "delta": "Dec hike ~94% cum.",
+      "dir": "flat",
+      "note": "Fed funds 3.75–4.00%"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "Monday high (NDX)",
+      "value": "29,788.76",
+      "role": "resistance",
+      "note": "Bounce high; ~1.4% above implied open"
+    },
+    {
+      "label": "Monday close (NDX)",
+      "value": "29,529.35",
+      "role": "long",
+      "note": "Reclaim & hold after 9:30 → LONG trigger (NQ ≈ 29,720)"
+    },
+    {
+      "label": "Monday low (NDX)",
+      "value": "29,461.32",
+      "role": "pivot",
+      "note": "Implied open sits just below; reclaim vs reject decides"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "29,478.5",
+      "role": "short",
+      "note": "Break → SHORT trigger (≈ NDX 29,285)"
+    },
+    {
+      "label": "Prior close, Fri (NDX)",
+      "value": "29,187.55",
+      "role": "support",
+      "note": "Bounce origin / next downside magnet"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "5.05% / 5.14%",
+      "role": "pivot",
+      "note": "Toward 5.05% = supportive; back above 5.14% = bearish"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The data is out and it softened yields.",
+          "text": "September housing starts came in at 1.221M (−5.2% m/m) vs ~1.30M consensus, and single-family starts were 859K. Permits were 1.400M vs 1.39M. The 10-year fell to ~5.09% and NQ bounced ~120 points off its 8:30 AM low [3,5,7]. Pending home sales are due at 10:00 AM ET (consensus ~0.0%) [11]."
+        },
+        {
+          "label": "AI risk-off is global this morning.",
+          "text": "The Kospi fell 3.73% and SK Hynix 4.2%. European tech was down 1.4% and ABB fell ~6% despite record orders. In the US premarket, Micron, Sandisk, Intel and AMD were down 2–3%, CoreWeave/Nebius were down ~4–5%, and Apple was down ~1.2% [3,4,6]."
+        },
+        {
+          "label": "Implied gap below Monday's low.",
+          "text": "NQ traded ~193 points over cash NDX at Monday's settle (29,722.5 vs 29,529.35). On that basis ~29,550 NQ implies an NDX open near 29,355, just below Monday's 29,461 low and about halfway back down Monday's bounce from 29,188 [2,7]. That's an approximate basis estimate, not a quote."
+        },
+        {
+          "label": "No Fed or megacap catalyst before the close.",
+          "text": "The Fed is in its quiet period before the Oct 27–28 FOMC. Netflix and SpaceX report after Tuesday's close, and Meta/Tesla report Wednesday. GM's −6–7% premarket drop (on a guidance narrowing) is only a small drag on the Nasdaq [3,4,12]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "Yields are falling, not rising (−5 bp after the soft housing print), the dollar is weaker, and October hike odds are only ~16–17%. Nvidia is barely lower (−0.6%), and futures are already ~120 points off the overnight low. Gap-downs into Monday's range after a strong bounce often get bought, and dip buyers stepped in hard Monday [3,6,7,8]."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Monday's bounce looks like a one-day relief rally. Selling is spreading from Asia and Europe into US chips, and CoreWeave's credit (distressed CDS, high Oracle bond yields) is still stressed. Brent at $110–111 keeps the inflation/December-hike story alive. A clean break of the overnight low would likely target Friday's 29,188 NDX close [3,4,6,13]."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Flip to LONG:",
+          "text": "NDX gets back above Monday's close (29,529; NQ ≈ 29,720) and holds it after 9:30 AM, with the 10-year staying below ~5.10% and chips (SMH) turning green. Stronger: the 10-year moves toward 5.05%."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ breaks the overnight low (~29,478, ≈ NDX 29,285) and NDX stays below Monday's low (29,461) through the first 30 minutes. Also counts: the 10-year rebounds through ~5.14% or Brent extends above ~$111.5 on Gulf/Houthi headlines."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "The 10:00 AM pending home sales print, any AI-financing or CoreWeave credit headline, unscheduled Fed/Warsh comments despite the blackout, and Middle East oil headlines [3,4,11]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Markets Insider, US futures quotes (NASDAQ 100 Futures 29,536.50, −186.00 / −0.63%, 8:38 AM ET; oil quotes).",
+      "url": "https://markets.businessinsider.com/premarket",
+      "link_label": "markets.businessinsider.com/premarket"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX) historical data: Mon Oct 19 H 29,788.76 / L 29,461.32 / C 29,529.35; Fri Oct 16 C 29,187.55.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 3,
+      "text": "CNBC, \"Stock futures are mixed as chipmakers come under pressure: Live updates\" (updated Oct 20, 8:44 AM ET): housing starts vs Dow Jones consensus, premarket movers, oil.",
+      "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html",
+      "link_label": "cnbc.com"
+    },
+    {
+      "id": 4,
+      "text": "Reuters via StreetInsider, \"Nasdaq futures fall as oil prices jump, key earnings loom\" (Oct 20, 6:08 AM ET; NQ −0.62% at 7:06 AM; Netflix/SpaceX after Tuesday close, Meta/Tesla Wednesday).",
+      "url": "https://www.streetinsider.com/General+News/Nasdaq+futures+fall+as+oil+prices+jump%2C+key+earnings+loom/27206044.html",
+      "link_label": "streetinsider.com"
+    },
+    {
+      "id": 5,
+      "text": "U.S. Census Bureau/HUD, Monthly New Residential Construction, September 2026 (released Oct 20, 8:30 AM ET).",
+      "url": "https://www.census.gov/construction/nrc/current/",
+      "link_label": "census.gov"
+    },
+    {
+      "id": 6,
+      "text": "Proactive Investors, \"MARKETS LIVE: US futures mixed as AI jitters weigh on tech stocks…\" (Oct 20; NQ 29,521.50 at 7:45 AM ET, DXY 101.77, Brent 111.52, Dec WTI ~98.80).",
+      "url": "https://www.proactiveinvestors.com/companies/news/1100357/markets-live-us-futures-mixed-as-ai-jitters-weigh-on-tech-stocks-ahead-of-earnings-1100357.html",
+      "link_label": "proactiveinvestors.com"
+    },
+    {
+      "id": 7,
+      "text": "Yahoo Finance quotes, Oct 20 ~8:36–8:42 AM ET: NQ=F 29,563.75 (prev settle 29,722.50; overnight 29,478.5–29,736.75), ^TNX 5.09 (prev 5.136), DX-Y.NYB 101.72 (prev 101.98), CL=F 99.77 (prev 98.54), BZ=F 110.48.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 8,
+      "text": "FXBus, CME FedWatch summary (Oct 20): Oct hold 82.8% / +25 bp 17.2%; by Dec ≥1 hike 93.6%.",
+      "url": "https://www.fxbus.com/en/news/20261020060455122817.html",
+      "link_label": "fxbus.com"
+    },
+    {
+      "id": 9,
+      "text": "cdes.com, Fed rate expectations dashboard (Oct 20): futures 84% hold / 16% hike; Kalshi 85% hold.",
+      "url": "https://cdes.com/dashboards/fed-rates",
+      "link_label": "cdes.com"
+    },
+    {
+      "id": 10,
+      "text": "OCBC, Daily Treasury Outlook (Oct 20, 2026; Bloomberg data): 10Y UST 5.14% (+6.7 bp) Mon close, DXY 101.98, Brent 109.55.",
+      "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/pdf/daily%20treasury%20outlook/2026/dto%20201026.pdf",
+      "link_label": "ocbc.com"
+    },
+    {
+      "id": 11,
+      "text": "Danske Bank Research, weekly calendar 19–23 Oct 2026 (pending home sales consensus/prior).",
+      "url": "https://research.danskebank.com/link/MM161026/$file/MM_161026.pdf",
+      "link_label": "research.danskebank.com"
+    },
+    {
+      "id": 12,
+      "text": "Babypips, \"Fundies Cheat Sheet: Oct. 19–23, 2026\" (Fed quiet period, earnings timing).",
+      "url": "https://www.babypips.com/analysis/fundies-cheat-sheet-2026-10-19-oil-ai-earnings-yields",
+      "link_label": "babypips.com"
+    },
+    {
+      "id": 13,
+      "text": "WSJ, \"AI Selloff Returns, Oil Tops $110 a Barrel\" (Oct 20, 4:47 AM ET).",
+      "url": "https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70",
+      "link_label": "wsj.com"
+    }
+  ],
+  "data_notes": "The NQ quotes are indicative (Markets Insider is from market makers; Yahoo may be delayed ~10 min). Snapshots disagree: CNBC showed NQ −0.8% at 8:28 AM and −0.4% at 8:44 AM ET. The NDX open implied from the ~193-pt futures premium is an estimate. The 10-yr ~5.09% is Yahoo's ^TNX at ~8:36 AM ET; other morning prints ran 5.12–5.145% before the housing data. WTI is muddied by the November contract expiring: the front Nov contract is ~$104 (CNBC $103.92), Dec is ~$99.8 (Yahoo CL=F), and Markets Insider shows $99.47 (−4%, a contract-roll artifact). The housing-starts consensus is ~1.30M per CNBC/Dow Jones. Pending home sales (10:00 AM) consensus ~0.0% comes from last week's Danske calendar and I couldn't re-verify it this morning. I didn't find any US Fed speakers today (blackout). Monday's NDX H/L/C were verified against Yahoo daily data."
+}
