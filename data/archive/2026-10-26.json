@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-26",
+  "as_of": "2026-10-26T08:53:00-04:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "STAND_ASIDE",
+  "conviction": "low",
+  "bias": "Neutral, slight bullish lean",
+  "headline": "NQ is +0.5–0.7% pre-open on lower oil and an Anthropic IPO chip bid, but it is still inside Friday's cash range with the Fed, Microsoft and Alphabet all due Wednesday. Wait for a break of the overnight high or a fill of Friday's settle.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window",
+  "flip": {
+    "long": "NQ breaks and holds above the overnight high (29,354; ≈ NDX 29,194), which also puts cash NDX above Friday's 29,161 high. Better if chips (NVDA/MU/AVGO) keep their premarket gains and the 10-year stays under ~5.00%.",
+    "short": "NQ gives back the gap and loses Friday's settle (29,117.75; ≈ NDX 28,958, Friday's close). Stronger below the overnight low (29,024.25; ≈ NDX 28,864) and Friday's 28,826 cash low, especially if oil rebounds or neoclouds keep sliding."
+  },
+  "thesis": "There's no clear edge at the open, but the tone is better than Friday. The NDX closed Friday flat at 28,957.53 (−1.17 pts) inside a 28,825.72–29,161.03 range, after Thursday's 2.9% AI selloff [1]. Overnight, Nasdaq-100 futures are up ~0.5–0.6% at ~29,262–29,292 (8:36–8:40 AM ET), in a 29,024.25–29,354.00 range, so they are trading near the top of it [2,3]. Two things are helping. Oil is lower, with WTI ~$101 (−2%) as Qatari mediators visit Tehran, and chips are up on reports that Anthropic will file for its IPO today (Nvidia +1.4%, Micron +2.3%, Broadcom +1.5%) [3,4,5]. Against that, neoclouds (CoreWeave, Nebius, IREN) are falling again after Elon Musk warned of 'guppy-level death' for the group, and Brazilian assets are crashing after Lula's surprise win [4,10,11]. The 10-year is flat near ~4.99%, just under 5% [7]. The only data so far was the Chicago Fed index, which came in at 0.07 vs −0.1 expected [6,9]. The bigger issue is the calendar. The Fed decides Wednesday (90% hold, but **December: ~69–75% for a hike**), and Microsoft and Alphabet report that same day, with Amazon also due this week [4,5,6,8]. A futures-implied cash open near ~29,100 sits inside Friday's range, below its 29,161 high [1,2]. Ahead of that much event risk, the call is **stand aside until the overnight high breaks or Friday's settle fails**.",
+  "evidence_cutoff": "Mon Oct 26, 2026, 8:53 AM ET (9:53 AM Atlantic). Latest futures quotes: 8:36 AM ET (Markets Insider), 8:40 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "29,262.00",
+      "delta": "+144.25 / +0.50%",
+      "dir": "up",
+      "note": "Yahoo 8:40 AM ET; Markets Insider 29,292.25 (+0.60%) at 8:36"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "29,024.25 – 29,354.00",
+      "delta": "",
+      "dir": "flat",
+      "note": "Yahoo Oct 26 bar; Friday settle 29,117.75"
+    },
+    {
+      "label": "NDX close (Fri)",
+      "value": "28,957.53",
+      "delta": "H 29,161.03 / L 28,825.72",
+      "dir": "flat",
+      "note": "−1.17 / −0.00% on the day; Thu close 28,958.69"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "~4.990%",
+      "delta": "≈ +0.2 bp",
+      "dir": "flat",
+      "note": "vs 4.988% prior close (Yahoo ^TNX, 8:35 AM ET); day range 4.990–5.003%"
+    },
+    {
+      "label": "Dollar index",
+      "value": "101.89",
+      "delta": "+0.07%",
+      "dir": "flat",
+      "note": "vs 101.81 prior close, 8:40 AM ET"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$101.16 / $115.04",
+      "delta": "−2.0% / −1.4%",
+      "dir": "up",
+      "note": "Markets Insider 8:36–8:46 AM ET; lower oil helps tech"
+    },
+    {
+      "label": "Oct 28 hike odds",
+      "value": "~10%",
+      "delta": "hold ~90%",
+      "dir": "flat",
+      "note": "Dec: 68.9% one hike, 7.3% two (CME FedWatch); fed funds 3.75–4.00%"
+    },
+    {
+      "label": "VIX",
+      "value": "19.17",
+      "delta": "−1.4%",
+      "dir": "flat",
+      "note": "Yahoo, pre-open"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ overnight high",
+      "value": "29,354.00",
+      "role": "long",
+      "note": "Break & hold → LONG trigger (≈ NDX 29,194)"
+    },
+    {
+      "label": "Friday high (NDX)",
+      "value": "29,161.03",
+      "role": "resistance",
+      "note": "Cash above it = gap holding and range broken upward"
+    },
+    {
+      "label": "Implied NDX open",
+      "value": "~29,100",
+      "role": "pivot",
+      "note": "Estimate: NQ ~29,262 minus ~160-pt basis (Fri settle vs close)"
+    },
+    {
+      "label": "NQ Friday settle",
+      "value": "29,117.75",
+      "role": "pivot",
+      "note": "Gap-fill level (≈ NDX 28,958, Friday's close). Losing it → SHORT bias"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "29,024.25",
+      "role": "short",
+      "note": "Break → SHORT trigger (≈ NDX 28,864)"
+    },
+    {
+      "label": "Friday low (NDX)",
+      "value": "28,825.72",
+      "role": "short",
+      "note": "Cash break below → new low under Thursday's 28,855"
+    },
+    {
+      "label": "Fri Oct 16 close (NDX)",
+      "value": "29,187.55",
+      "role": "resistance",
+      "note": "Two weeks ago close; just above Friday's high"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "5.00%",
+      "role": "pivot",
+      "note": "Holding under = fine for tech; sustained move above = pressure"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The gap is up, but it's inside Friday's range.",
+          "text": "NQ is +0.5–0.6% pre-open and trading near its overnight high [2,3]. On a ~160-pt futures premium, that implies a cash open near ~29,100, which is still below Friday's 29,161 high and well inside last week's selloff [1,2]. That's an estimate, not a quote."
+        },
+        {
+          "label": "Oil and chips are doing the lifting.",
+          "text": "WTI is down ~2% to ~$101 and Brent ~1.4% lower as Qatari mediators travel to Tehran [3,5]. Chips are up on reports Anthropic files for its IPO today: Nvidia +1.4%, Micron +2.3%, Broadcom +1.5%, AMD +1.3% [4]."
+        },
+        {
+          "label": "The AI-financing worry hasn't gone away.",
+          "text": "CoreWeave, Nebius and IREN are down ~2–3% premarket after Elon Musk said 200+ neoclouds face 'guppy-level death'; the group is already down over 30% each in October [5,10,11]. Brazil's ETF (EWZ) is down ~26% premarket after Lula's surprise reelection [6]."
+        },
+        {
+          "label": "Big events come later in the week, not this morning.",
+          "text": "Only the Chicago Fed index is out (0.07 vs −0.1 expected); Dallas Fed manufacturing comes later this morning [6,9]. The Fed is in its pre-meeting blackout. The FOMC decision, Microsoft and Alphabet earnings are all Wednesday, with PCE and Q3 GDP also this week [4,5,6]. Today's NDX reporter is Cadence Design [6]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "Oil is coming off a near six-month high, the 10-year is holding just under 5%, and chips have a fresh catalyst in the Anthropic IPO filing [3,4,5,7]. After two straight losing weeks and a flat Friday at Thursday's close, a break above Friday's 29,161 high could squeeze shorts toward 29,188–29,200 ahead of the megacap reports [1,6]."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Meta disappointed last week by raising AI spending again and selling stock to pay for it, and neocloud credit stress is spreading [5,10]. December hike odds are ~69–75%, and Bank of America expects a hike Wednesday [4,8]. A gap-up into heavy event risk can easily fade back to Friday's settle and below."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ breaks and holds above the overnight high (29,354; ≈ NDX 29,194) through the first 30 min, so cash NDX clears Friday's 29,161 high. Ideally with oil staying lower, SMH holding its premarket gain and the 10-year under 5.00%."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ fills the gap and loses Friday's settle (29,117.75; ≈ NDX 28,958). Stronger below the overnight low (29,024.25) and Friday's 28,826 cash low, especially if WTI moves back above ~$103 or the 10-year holds above 5.00%."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "Anthropic IPO filing details, Middle East and Houthi/Saudi headlines, more neocloud or AI-credit news, Brazil contagion, and any Fed leak ahead of Wednesday's decision [3,4,5,6,10]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX) historical data: Fri Oct 23 O 28,847.82 / H 29,161.03 / L 28,825.72 / C 28,957.53 (−1.17); Thu Oct 22 C 28,958.69, L 28,855.10; Fri Oct 16 C 29,187.55.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 29,262.00 +144.25 (+0.50%) at 8:40 AM ET; Oct 26 session O 29,268.00 / H 29,354.00 / L 29,024.25; Oct 23 settle 29,117.75.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/history/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 3,
+      "text": "Markets Insider, premarket quotes (NASDAQ 100 Futures 29,292.25, +174.50 / +0.60%, 8:36 AM ET; 29,319.00 +0.69% at 8:33; WTI 101.16 −2.04%, Brent 115.04 −1.44%; Euro Stoxx 50 +0.69%).",
+      "url": "https://markets.businessinsider.com/premarket",
+      "link_label": "markets.businessinsider.com/premarket"
+    },
+    {
+      "id": 4,
+      "text": "CNBC live updates, \"Stock futures rise as tech gains, oil prices drop to start week\" (updated Oct 26, 8:24 AM ET): NQ +0.7%; Anthropic IPO filing expected Monday; NVDA +1.4%, MU +2.3%, AVGO +1.5%, AMD +1.3%; Brent $115.02, WTI $101.01; 90% hold odds; BofA expects a hike.",
+      "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
+      "link_label": "cnbc.com"
+    },
+    {
+      "id": 5,
+      "text": "Reuters via Investing.com, \"US stock futures edge up as oil falls heading into earnings barrage\" (Oct 26, 6:07 AM ET): NQ +0.25% at 5:19 AM; Alphabet, Microsoft, Amazon report this week; Meta stock sale; Qatari mediators in Tehran; PCE Thursday, Q3 GDP this week.",
+      "url": "https://www.investing.com/news/economy-news/us-stock-futures-edge-up-as-oil-falls-heading-into-earnings-barrage-4971878",
+      "link_label": "investing.com"
+    },
+    {
+      "id": 6,
+      "text": "Yahoo Finance live blog, \"Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of busy week of earnings, Fed rate decision\" (Oct 26, 8:29 AM ET): NQ +0.4%; GOOGL/MSFT report Wednesday; EWZ −26% premarket; calendar: Chicago Fed (−0.1 expected), Dallas Fed; earnings VZ, CDNS and others.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+      "link_label": "finance.yahoo.com"
+    },
+    {
+      "id": 7,
+      "text": "Yahoo Finance, ^TNX 4.990 (+0.002; prev close 4.988) at 8:35 AM ET; DX-Y.NYB 101.89 (+0.07%; prev 101.81) at 8:40 AM ET; VIX 19.17 (−1.44%).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "finance.yahoo.com/quote/^TNX"
+    },
+    {
+      "id": 8,
+      "text": "FXBus, CME FedWatch (Oct 26, ~6:00 AM ET): Oct 28 hold 90% / hike 10%; Dec 9 hold 23.8%, one hike 68.9%, two 7.3%. A FedWatch-method mirror at 8:44 AM ET shows Dec 16.4% / 75.4% / 8.2%.",
+      "url": "https://www.fxbus.com/en/news/20261026055805022766.html",
+      "link_label": "fxbus.com"
+    },
+    {
+      "id": 9,
+      "text": "Chicago Fed, CFNAI release Oct 26, 2026, 8:30 AM ET: September 0.07 (August revised to −0.08); 3-month average 0.03. FXStreet headline: up to 0.07 from −0.04.",
+      "url": "https://api.data.chicagofed.org/CFNAI/cfnai-table.csv",
+      "link_label": "chicagofed.org"
+    },
+    {
+      "id": 10,
+      "text": "CNBC Morning Squawk, \"A shock in Brazil sends stocks plunging, while neoclouds take another hit\" (Oct 26, 6:39 AM ET): Musk 'guppy-level death' comment; CoreWeave, Nebius, IREN down over 30% each in October.",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-stocks-neoclouds-selloff.html",
+      "link_label": "cnbc.com"
+    },
+    {
+      "id": 11,
+      "text": "TipRanks, \"Stock Market Today, Oct. 26 – Futures Rise Ahead of Big Tech Earnings and Fed's Rate Decision\" (5:31 AM ET): NQ +0.25%; CRWV −2.4%, NBIS −1.9%, IREN −1.8% premarket.",
+      "url": "https://www.tipranks.com/news/stock-market-today-oct-26-futures-rise-ahead-of-big-tech-earnings-and-feds-rate-decision",
+      "link_label": "tipranks.com"
+    }
+  ],
+  "data_notes": "NQ quotes are indicative (Markets Insider is from market makers; Yahoo may be delayed ~10 min). The NQ gain ranges from +0.4% to +0.7% across sources and times (Yahoo blog, CNBC, Markets Insider). The overnight range comes from Yahoo's Oct 26 daily bar as of 8:40 AM ET and may have changed since. The implied NDX open uses Friday's ~160-pt premium (NQ settle 29,117.75 vs NDX close 28,957.53) and is an estimate. Brent differs by source: Markets Insider and CNBC show ~$115 (−1.4%), while Yahoo's blog says 'below $110' and TradingKey shows $109.96, probably a different contract month; WTI is ~$101 everywhere. Fed odds differ by source: FXBus/CME FedWatch shows Dec one-hike 68.9% (~6:00 AM ET), another FedWatch report shows 67.5% + 6.7% for two, and a FedWatch-method mirror shows 75.4% + 8.2% (8:44 AM ET). Investing.com's Fed Rate Monitor timed out and was not used. The 10-year quote is from 8:35 AM ET. The Chicago Fed index is the only data released so far; Dallas Fed manufacturing (prior 9.8) is due later this morning. No Fed speakers ahead of the Oct 27–28 FOMC. Cadence Design (NDX) reports today; Microsoft and Alphabet report Wednesday, and Amazon later this week."
+}

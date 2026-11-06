@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-06",
+  "as_of": "2026-11-06T09:10:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "SHORT",
+  "conviction": "low",
+  "bias": "Mildly bearish",
+  "headline": "Hot NFP (165K vs 65K) and a dollar/yields rip collide with an NQ +1.4% bounce into the overnight highs after Thursday's −6% NDX rout. Lean SHORT at the open below the overnight high 27,251; flip LONG only on a reclaim and hold of 27,251.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · October NFP out 8:30 · Fed's Musalem 9:10, Bowman 12:15, Daly 1:00 PM ET · UMich 10:00 AM ET",
+  "flip": {
+    "long": "LONG if NQ reclaims and holds the overnight high 27,251.25 (≈ NDX ~27,129 on Thursday's ~122-pt premium), meaning the chip short-cover is overpowering the hawkish NFP. Target a push toward 27,400–27,500.",
+    "short": "SHORT stays on while NQ is below 27,251. Stronger below the overnight midpoint ~26,809 (≈ Thu settle 26,752 area); next targets Thursday's settle 26,752 then the overnight low 26,366.50."
+  },
+  "thesis": "A low-conviction lean **SHORT** for the open. **NQ is +379.25 pts / +1.42% at 27,131.25 (≈9:10 AM ET)** after Thursday's historic AI rout (NDX −6.36% to 26,629.81), sitting in the upper half of a 26,366.50–27,251.25 overnight range [1]. The bounce is real in chips — **AMD +8.2%, AVGO +5.5%, MU +6.1%, NVDA +4.0%** premarket — but megacaps are mixed-to-soft (MSFT −1.0%, AAPL −0.8%, META −0.4%) [2,3]. Macro cuts against extending it: **October NFP printed 165K vs 65K expected**, unemployment 4.1% vs 4.2%, AHE +0.4% m/m / +3.1% y/y, and Aug–Sep revised up a combined +84K [4,5]. **December hike odds jumped to ~76%** (CME FedWatch via CNBC), the 10-year is +3 bp near 4.87%, and the dollar is +0.7% at 102.27 [6,7]. Tape is split: Dow futures −0.9%, S&P +0.2%, Nasdaq +1.4% [2,3]. VIX is still elevated at 26.5 after Thursday's spike to 28.18 [7]. So **lean short below the overnight high 27,251; flip long only on a reclaim and hold**.",
+  "evidence_cutoff": "Fri Nov 6, 2026, 9:10 AM ET (10:10 AM Atlantic). Futures and premarket stock quotes ~9:05–9:11 AM ET (Yahoo, may be delayed). NFP 8:30 AM ET print.",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "27,131.25",
+      "delta": "+379.25 / +1.42%",
+      "dir": "up",
+      "note": "Yahoo ~9:10 AM ET vs Thu settle 26,752.00"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "26,366.50 – 27,251.25",
+      "delta": "mid ~26,809",
+      "dir": "flat",
+      "note": "Yahoo Nov 6 session; last in upper half near ON high"
+    },
+    {
+      "label": "NDX close (Thu)",
+      "value": "26,629.81",
+      "delta": "H 28,078.19 / L 26,606.43",
+      "dir": "down",
+      "note": "−1,807.36 / −6.36% vs Wed 28,437.17; worst day since Mar 2020 (reports)"
+    },
+    {
+      "label": "October NFP",
+      "value": "165K",
+      "delta": "est. 65K",
+      "dir": "up",
+      "note": "U-rate 4.1% vs 4.2%; AHE +0.4%/+3.1% vs +0.3%/+2.9%; revisions +84K"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.87%",
+      "delta": "+3 bp vs 4.837",
+      "dir": "up",
+      "note": "Yahoo ^TNX ~9:05 AM ET; CNBC had ~4.87% post-NFP"
+    },
+    {
+      "label": "Dollar index",
+      "value": "102.27",
+      "delta": "+0.72 / +0.71%",
+      "dir": "up",
+      "note": "Yahoo DX-Y.NYB ~9:10 AM ET vs Thu 101.55"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$90.64 / $98.13",
+      "delta": "+0.1% / −0.2%",
+      "dir": "flat",
+      "note": "Yahoo vs Thu settles 90.52 / 98.29"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~76%",
+      "delta": "up from ~66–69% pre-NFP",
+      "dir": "up",
+      "note": "CME FedWatch via CNBC after the print"
+    },
+    {
+      "label": "VIX",
+      "value": "26.50",
+      "delta": "−1.68 / −6.0%",
+      "dir": "down",
+      "note": "Yahoo ~9:05 AM ET vs Thu close 28.18 (Thu spiked ~70%)"
+    },
+    {
+      "label": "Megacaps pre-mkt",
+      "value": "AMD +8.2% · NVDA +4.0%",
+      "delta": "MSFT −1.0% · AAPL −0.8%",
+      "dir": "flat",
+      "note": "Yahoo ~9:10 AM ET vs Thu close: AVGO +5.5%, MU +6.1%, TSLA +2.0%, QCOM +2.4%, AMZN +0.3%, META −0.4%, GOOGL flat"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ overnight high",
+      "value": "27,251.25",
+      "role": "long",
+      "note": "Reclaim and hold → flip LONG (≈ NDX ~27,129)"
+    },
+    {
+      "label": "NQ last",
+      "value": "27,131.25",
+      "role": "short",
+      "note": "~9:10 AM ET; implied NDX open ~27,009 (estimate)"
+    },
+    {
+      "label": "NQ overnight midpoint",
+      "value": "~26,809",
+      "role": "pivot",
+      "note": "Break → stronger SHORT; ≈ near Thu settle"
+    },
+    {
+      "label": "NQ Thu settle",
+      "value": "26,752.00",
+      "role": "support",
+      "note": "Gap-fill / bounce-fail target (≈ NDX 26,630 Thu close)"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "26,366.50",
+      "role": "short",
+      "note": "Break → extension of Thursday's washout"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.87%",
+      "role": "pivot",
+      "note": "Push back through 4.90–5.00% = more pressure on the bounce"
+    },
+    {
+      "label": "VIX",
+      "value": "26.50",
+      "role": "pivot",
+      "note": "Still elevated; reclaim of 28 = risk-off back on"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "NFP was a full hawkish beat.",
+          "text": "Payrolls 165K vs 65K, U-rate 4.1%, wages hot, and two-month revisions +84K [4,5]. December hike odds moved up to ~76% [6]. That is duration-negative for NQ into the open."
+        },
+        {
+          "label": "The bounce is already extended.",
+          "text": "NQ is +1.42% at 27,131.25, in the upper half of 26,366.50–27,251.25 and only ~120 pts under the overnight high [1]. Chips are leading the cover (AMD +8%, NVDA +4%) after Thursday's −6% NDX wipeout [2,3]."
+        },
+        {
+          "label": "Dollar and yields confirm the hawkish read.",
+          "text": "DXY +0.7% at 102.27 and the 10-year +3 bp near 4.87% [7]. Futures showed little lasting equity reaction to the print itself, which often means the bounce fades into cash [2]."
+        },
+        {
+          "label": "The tape underneath is still soft.",
+          "text": "Dow futures −0.9% while Nasdaq +1.4% and S&P +0.2% — a chip-led bounce, not broad risk-on [2,3]. VIX is still 26.5 [7]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "After NDX's worst day since March 2020 (−6.36%), short-covering can run into and through the cash open. Yardeni called the AI selloff a \"buying opportunity,\" and Citi said data-center buildout may slow rather than stop [2]. VIX is off Thursday's 28.18 high, and chips are bid hard premarket [3,7]."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Hot NFP plus a stronger dollar and higher yields give the Fed cover to hike in December. Megacaps are not confirming the chip bounce, Dow futures are still red, and NQ is leaning into overnight supply at 27,251."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ reclaims and holds the overnight high 27,251.25 in the first 30 minutes. Target 27,400–27,500."
+        },
+        {
+          "label": "Stronger SHORT:",
+          "text": "NQ loses the overnight midpoint ~26,809 / Thursday settle 26,752. Next target the overnight low 26,366.50."
+        },
+        {
+          "label": "Go STAND ASIDE:",
+          "text": "NQ chops between ~26,900 and 27,251 with chips and megacaps cancelling and VIX stuck mid-20s."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "Musalem (9:10), Bowman (12:15) and Daly (1:00 PM ET); UMich sentiment at 10:00 AM ET; more AI / data-center policy headlines after the midterm sweep; weekend positioning after a −6% NDX day [8]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 27,131.25 at ~9:10 AM ET; Nov 6 session H 27,251.25 / L 26,366.50 / O 26,640.25; Nov 5 settle 26,752.00 (H 28,668.50 / L 26,570.00). ^NDX Thu Nov 5 O 28,078.19 / H 28,078.19 / L 26,606.43 / C 26,629.81 vs Wed C 28,437.17.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 2,
+      "text": "Investing.com (Reuters), \"U.S. stock futures show little reaction to blockbuster jobs report, yields spike\" (updated Nov 6, 8:37 AM ET): NQ futures +1.3%, ES +0.2%, YM −0.9%; NVDA ~+4%, AMD ~+7%, MU ~+8% premarket; NDX −6%+ Thursday on AI/data-center fears after Democratic midterm sweep; Yardeni \"buying opportunity\"; Citi on slower data-center build.",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-after-ai-rout-batters-wall-st-payrolls-data-in-focus-5006240",
+      "link_label": "investing.com (Reuters)"
+    },
+    {
+      "id": 3,
+      "text": "Yahoo Finance live (updated ~8:59 AM ET): Dow futures −0.8%, S&P +0.2%, Nasdaq-100 futures +1.5%+ after Thursday AI meltdown; VIX had spiked ~70% to 28. Premarket stock prints ~9:10 AM ET vs Thu close (Yahoo 1m): NVDA 188.87 (+4.0%), AMD 437.50 (+8.2%), AVGO 307.68 (+5.5%), MU 696.61 (+6.1%), TSLA 350.61 (+2.0%), QCOM 160.55 (+2.4%), AMZN 261.07 (+0.3%), AAPL 341.35 (−0.8%), MSFT 530.50 (−1.0%), META 602.50 (−0.4%), GOOGL 282.50 (flat).",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html",
+      "link_label": "Yahoo Finance (live)"
+    },
+    {
+      "id": 4,
+      "text": "Helious / BLS: October Nonfarm Payrolls 165K vs 65K consensus, prior 29K (revised to 60K); +1.39σ surprise. Captured Fri Nov 6, 2026 8:30 AM ET.",
+      "url": "https://helious.io/data/nonfarm-payrolls",
+      "link_label": "helious.io (NFP)"
+    },
+    {
+      "id": 5,
+      "text": "CNBC, \"U.S. economy added 165,000 jobs in October…\" (Nov 6, 8:31 AM ET): U-rate 4.1% vs 4.2% est.; AHE +0.4% m/m / +3.1% y/y vs +0.3% / +2.9%; Aug revised to +186K (+53K), Sep to +60K (+31K); private payrolls +159K; workweek 34.4.",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "link_label": "cnbc.com (jobs report)"
+    },
+    {
+      "id": 6,
+      "text": "CNBC Treasuries, \"10-year Treasury yield rises after much stronger-than-expected October jobs report\" (updated Nov 6): 10-year ~4.87% (+3 bp), 2-year ~4.52%; CME FedWatch >76% chance of a Dec 9 hike, up from >66% the prior day.",
+      "url": "https://www.cnbc.com/2026/11/06/treasury-yields-inch-lower-as-investors-look-ahead-to-key-jobs-data-.html",
+      "link_label": "cnbc.com (yields / FedWatch)"
+    },
+    {
+      "id": 7,
+      "text": "Yahoo Finance quotes ~9:05–9:10 AM ET: ^TNX 4.868 (prev 4.837); DX-Y.NYB 102.269 (prev 101.55); CL=F 90.64 (prev 90.52); BZ=F 98.13 (prev 98.29); ^VIX 26.50 (prev 28.18); ES=F 7,395 (prev 7,383); YM=F 51,132 (prev 51,615); RTY=F 2,742.4 (prev 2,735.4).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "finance.yahoo.com/quote/^TNX"
+    },
+    {
+      "id": 8,
+      "text": "FinancialJuice Morning Juice (Nov 6): NFP 8:30, Canadian jobs 8:30, UMich 10:00 AM ET; Fed's Musalem 9:10 AM ET (Greater St. Louis, text+Q&A), Bowman 12:15 PM ET (Ole Miss), Daly 1:00 PM ET (CNBC).",
+      "url": "https://features.financialjuice.com/2026/11/06/morning-juice-us-session-prep-6th-november-2/",
+      "link_label": "financialjuice.com (calendar)"
+    }
+  ],
+  "data_notes": "NQ and stock quotes are from Yahoo and may be delayed. Premarket megacap % moves use Thursday regular-session closes vs ~9:10 AM ET Yahoo 1-minute premarket lasts. NQ overnight range uses Yahoo's Nov 6 daily bar (H 27,251.25 / L 26,366.50); the 1-minute series sometimes shows a higher low once the Globex overnight print rolls. Implied NDX open uses Thursday's ~122-pt premium (NQ settle 26,752 vs NDX 26,629.81) and is an estimate. NFP consensus varies slightly by source (65K Helious/Yahoo live vs ~59–70K elsewhere); the beat is unambiguous. Dec hike odds are CME FedWatch as reported by CNBC post-print (~76%); pre-print secondary reports had ~66–73%. UMich 10:00 AM ET had not printed at evidence cutoff. Musalem was scheduled for 9:10 AM ET — remarks not fully captured here."
+}

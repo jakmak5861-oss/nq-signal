@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-02",
+  "as_of": "2026-11-02T08:55:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "LONG",
+  "conviction": "low",
+  "bias": "Bullish",
+  "headline": "NQ is +1.0% after Friday's −3.5% NDX rout, pressing its overnight high as oil drops ~6% on US–Iran diplomacy and yields and the dollar ease. Small long while NQ holds above the overnight midpoint; ISM at 10:00, Apple/Palantir after the close and Tuesday's midterms cap conviction.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · ISM Manufacturing 10:00 AM ET · Goolsbee 11:15 · AAPL/PLTR after close · midterms Tue",
+  "flip": {
+    "long": "Stays LONG while NQ holds above the overnight midpoint ~28,715. Adds conviction on a break of the overnight high 28,844 and Friday's NDX high 28,713 (≈ NQ 28,862), especially if the 10-year stays under 4.90%.",
+    "short": "NQ loses ~28,715 → STAND ASIDE; breaks the overnight low 28,587 (≈ NDX 28,438) → SHORT, meaning the rebound failed and Friday's selling is resuming. Stronger below Friday's settle 28,534."
+  },
+  "thesis": "There's a small long edge at the open, low conviction. The NDX fell **3.46% Friday to 28,384.85** (range 28,093.24–28,713.45), its worst day since June, after Amazon's miss and Intel's −28% guide [1,6]. Over the weekend the tape turned: **oil is down ~6% (WTI ~$97.5, Brent ~$106.4)** as Iran and Qatar held a third day of talks on ending the war and OPEC+ held December output steady [3,7]. **NQ is +278 pts / +0.97% at 28,812.00 (8:43 AM ET)**, near the top of a 28,587.00–28,844.00 overnight range, having climbed steadily from a Sunday-evening ~28,630 start [2,4,5]. On Friday's ~149-pt futures premium, that implies a cash open near ~28,660, close to Friday's 28,713 NDX high [1,2]. Macro is supportive: the 10-year is −2.5 bp at ~4.90%, the dollar −0.3% at ~101.56, and VIX is a touch lower at ~19.1 [9]. The rebound is broad but modest: ES +0.6%, Dow futures +0.7%, and in premarket NVDA, MSFT and GOOGL are ~+0.7%, PLTR +1.9%, AMD +1.1%, with Apple flat ahead of its report [2,9]. December hike odds are ~72% (CME FedWatch) [8]. So the call is **a small LONG while NQ holds above its overnight midpoint ~28,715**, but ISM Manufacturing (est. 54.7; prices paid was 77.9) lands 30 minutes after the open, and Apple, Palantir and Tuesday's midterms sit right behind it, so keep size small.",
+  "evidence_cutoff": "Mon Nov 2, 2026, 8:55 AM ET (9:55 AM Atlantic). Latest futures quote: 8:43 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "28,812.00",
+      "delta": "+278.00 / +0.97%",
+      "dir": "up",
+      "note": "Yahoo 8:43 AM ET vs Fri settle 28,534.00"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "28,587.00 – 28,844.00",
+      "delta": "",
+      "dir": "flat",
+      "note": "Yahoo Nov 2 session (from 6 PM ET Sun); trading near the high"
+    },
+    {
+      "label": "NDX close (Fri)",
+      "value": "28,384.85",
+      "delta": "H 28,713.45 / L 28,093.24",
+      "dir": "down",
+      "note": "−1,017.66 / −3.46% vs Thu 29,402.51"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.90%",
+      "delta": "−0.025 vs 4.929",
+      "dir": "up",
+      "note": "Yahoo ^TNX 8:37 AM ET (range 4.902–4.921)"
+    },
+    {
+      "label": "Dollar index",
+      "value": "101.56",
+      "delta": "−0.32 / −0.3%",
+      "dir": "flat",
+      "note": "Yahoo 8:42 AM ET; day range 101.43–101.99"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$97.51 / $106.40",
+      "delta": "−6.3% / −6.2%",
+      "dir": "flat",
+      "note": "Yahoo 8:42 AM ET (WTI Dec, prior 104.12; Brent prior 113.43). Iran–Qatar talks"
+    },
+    {
+      "label": "ISM Manufacturing (Oct)",
+      "value": "10:00 AM ET",
+      "delta": "est. 54.7",
+      "dir": "flat",
+      "note": "Prior 54.5; prices paid prior 77.9. No 8:30 data today"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~72%",
+      "delta": "≈ flat vs Fri (73–80%)",
+      "dir": "flat",
+      "note": "CME FedWatch via FXBus/Jin10; ZQ-based calc 79%; Polymarket 70.5%"
+    },
+    {
+      "label": "VIX",
+      "value": "19.12",
+      "delta": "−0.30 / −1.5%",
+      "dir": "up",
+      "note": "Yahoo 8:37 AM ET vs Fri 19.42"
+    },
+    {
+      "label": "Megacaps pre-mkt",
+      "value": "NVDA +0.7% · MSFT +0.7%",
+      "delta": "PLTR +1.9% · AAPL flat",
+      "dir": "up",
+      "note": "Yahoo ~8:30 AM ET vs Fri close: GOOGL +0.7%, AMD +1.1%, AMZN +0.3%, META −0.2%"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ Thu settle",
+      "value": "29,562.00",
+      "role": "resistance",
+      "note": "Friday's full gap (≈ NDX 29,402, Thu close); far away"
+    },
+    {
+      "label": "Fri NDX high",
+      "value": "28,713.45",
+      "role": "resistance",
+      "note": "≈ NQ 28,862. Cash clearing it = rebound extending"
+    },
+    {
+      "label": "NQ overnight high",
+      "value": "28,844.00",
+      "role": "long",
+      "note": "Break and hold → stronger LONG (≈ NDX 28,695)"
+    },
+    {
+      "label": "NQ overnight midpoint",
+      "value": "~28,715",
+      "role": "pivot",
+      "note": "Below = long edge gone → STAND ASIDE (≈ NDX 28,566)"
+    },
+    {
+      "label": "Implied NDX open",
+      "value": "~28,660",
+      "role": "pivot",
+      "note": "Estimate: NQ 28,812 minus ~149-pt basis (Fri settle vs close)"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "28,587.00",
+      "role": "short",
+      "note": "Break → flip SHORT (≈ NDX 28,438)"
+    },
+    {
+      "label": "NQ Fri settle",
+      "value": "28,534.00",
+      "role": "support",
+      "note": "Gap fill (≈ NDX 28,385, Fri close)"
+    },
+    {
+      "label": "Fri NDX low",
+      "value": "28,093.24",
+      "role": "support",
+      "note": "≈ NQ 28,242; lowest level of the selloff so far"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.90%",
+      "role": "pivot",
+      "note": "Under 4.90% = tailwind; back toward 5.00% (hot ISM prices) = pressure"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The gap is up, and it's holding near the highs.",
+          "text": "NQ is +0.97% at 28,812.00, near the top of its 28,587.00–28,844.00 overnight range after a steady climb from Sunday's ~28,630 start [2,4]. On a ~149-pt premium, that implies a cash open around ~28,660, just under Friday's 28,713 NDX high [1,2]. That's an estimate, not a quote."
+        },
+        {
+          "label": "Oil's drop is the macro catalyst.",
+          "text": "WTI is −6.3% at ~$97.5 and Brent −6.2% at ~$106.4 on Iran–Qatar talks to end the war and no military escalation over the weekend; OPEC+ kept December output unchanged [3,7]. That eases inflation and hike fears: the 10-year is ~4.90% (−2.5 bp) and the dollar is −0.3% [9]."
+        },
+        {
+          "label": "Tech is bouncing after a capitulation-style Friday.",
+          "text": "The NDX fell 3.46% Friday, its worst day since June, and lost ~6.5% in October [1,6]. This morning semis are bouncing (SOXX +1.6% early) and NVDA, MSFT, GOOGL are ~+0.7% premarket, PLTR +1.9% before its report [2,6]."
+        },
+        {
+          "label": "The first 30 minutes are the clean window.",
+          "text": "ISM Manufacturing lands at 10:00 AM ET (est. 54.7, prior 54.5; prices paid prior 77.9) and Goolsbee speaks at 11:15 [10]. There's no 8:30 data today."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bear case:",
+          "text": "A +1% bounce after a −3.5% day is a small retrace, and the AI-capex worries behind Friday's selloff (Amazon, Intel) haven't gone away [5,6]. A hot ISM prices index could push yields back toward 5% with December hike odds already ~72% [8,10]. Traders may also cut risk before Apple and Palantir after the close and Tuesday's midterms, and Reuters notes oil could swing back toward $120 if Iran rhetoric heats up after the vote [3,5]."
+        },
+        {
+          "label": "Bull case:",
+          "text": "Oil's ~6% drop, lower yields and a softer dollar are the cleanest macro mix in weeks [3,9]. Futures have climbed all night with no real pullback, and an oversold NDX after its worst month since March 2025 can squeeze through Friday's high [2,6]."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Stay/scale LONG:",
+          "text": "NQ holds above the overnight midpoint ~28,715 through the first 30 minutes. Add on a break of the overnight high 28,844 with cash NDX above Friday's 28,713 high, ideally with oil staying under $100 and the 10-year under 4.90%."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ breaks the overnight low 28,587.00 (≈ NDX 28,438), meaning the rebound failed. Stronger below Friday's settle 28,534, which fills the gap."
+        },
+        {
+          "label": "Flip to STAND ASIDE:",
+          "text": "NQ loses ~28,715 but holds above 28,587, or ISM at 10:00 sends yields sharply higher. Cut size into the close either way: Apple and Palantir report after the bell and the midterms are Tuesday."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "ISM prices paid at 10:00 AM ET, Goolsbee at 11:15, US–Iran headlines and oil, and pre-election positioning [3,7,10]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX): Fri Oct 30 H 28,713.45 / L 28,093.24 / C 28,384.85; Thu Oct 29 C 29,402.51.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 28,812.00 at 8:43 AM ET; Nov 2 session H 28,844.00 / L 28,587.00 (first 5-min bar from 6:10 PM ET Sun ~28,630); Oct 30 settle 28,534.00. Premarket stock quotes ~8:30 AM ET: NVDA 206.15, MSFT 525.74, GOOGL 281.90, PLTR 187.55, AMD 510.25, AAPL 344.60.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 3,
+      "text": "CNBC, \"Oil prices fall as Iran-U.S. pursue diplomacy\" (Nov 2): Brent −6.2% to $106.37, WTI −6.2% to $97.63 at 8:40 AM ET. Reuters via Arab News: Iran–Qatar talks for a third day; OPEC+ held December targets; KCM's Waterer warns Brent could head toward $120 after the midterms.",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "link_label": "cnbc.com (oil)"
+    },
+    {
+      "id": 4,
+      "text": "Investing.com, \"U.S. stock futures rebound as Apple earnings eyed; mid-terms in focus\" (Nov 2, 6:13 AM ET): Nasdaq 100 futures +0.84% to 28,772 at 6:10 AM ET; ES +0.6%, Dow +0.6%.",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789",
+      "link_label": "investing.com"
+    },
+    {
+      "id": 5,
+      "text": "CNBC live updates, \"Stock futures rise to start busy week as oil prices tumble, tech rebounds\" (Nov 2, 8:20 AM ET); AP, \"US futures climb as energy prices retreat\" (8:07 AM ET): Friday was the worst day since June on AI-spending worries.",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "link_label": "cnbc.com (live)"
+    },
+    {
+      "id": 6,
+      "text": "Swingfolio US Pre-Market, Nov 2 (7:34 AM ET): NQ +0.79%; Friday S&P −1.82%, Nasdaq −2.86%, INTC −28.6%; SOXX +1.58% after −8.24% Friday; NDX October loss ~6.5%, worst month since March 2025; AAPL and PLTR report after the close.",
+      "url": "https://swingfolio.com/daily/us/2026-11-02/morning",
+      "link_label": "swingfolio.com"
+    },
+    {
+      "id": 7,
+      "text": "Reuters via Arab News, \"Oil prices ease 3% on optimism for Qatari-led talks on ending Iran war\" (Nov 2).",
+      "url": "https://www.arabnews.com/energy/oil-prices-ease-3-on-optimism-for-qatari-led-talks-on-ending-iran-war-3009376",
+      "link_label": "arabnews.com (Reuters)"
+    },
+    {
+      "id": 8,
+      "text": "CME FedWatch via FXBus/Jin10 (Nov 2): December 9 FOMC 72% hike / 28% hold. MarketDrip ZQ-futures calc (FedWatch method) 79%; Polymarket 70.5%, Kalshi 69.5% (PricedNews, 8:32 AM ET).",
+      "url": "https://www.fxbus.com/en/news/20261102061130147021.html",
+      "link_label": "fxbus.com (FedWatch)"
+    },
+    {
+      "id": 9,
+      "text": "Yahoo Finance quotes, ~8:37–8:43 AM ET: ^TNX 4.904 (prev 4.929); DX-Y.NYB 101.563 (prev 101.879); CL=F 97.51 (prev 104.12); BZ=F 106.40 (prev 113.43); ^VIX 19.12 (prev 19.42); ES=F 7,657 (+0.56%); YM=F 52,268 (+0.67%).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "Yahoo quotes"
+    },
+    {
+      "id": 10,
+      "text": "Newsquawk Week in Focus and RiskReversal Week Ahead (Nov 2–6): ISM Manufacturing 10:00 AM ET Mon (est. 54.7, prior 54.5; prices paid prior 77.9 per Investing.com); Goolsbee 11:15 AM; JOLTS and midterms Tue; ADP and ISM Services Wed; NFP Fri (est. 55k, 4.2%). Fed held at 3.75–4.00% on Oct 28 (10–2, two hike dissents).",
+      "url": "https://www.newsquawk.com/headlines/week-in-focus-2nd-6th-november-2026-highlights-include-us-midterm-election-nfp-ism-pmis-rba-boe-and-ez-cpi-",
+      "link_label": "newsquawk.com"
+    }
+  ],
+  "data_notes": "NQ quotes are from Yahoo and may be delayed ~10 min. Yahoo's session low (28,587.00) is lower than the lowest 5-min bar it returned (28,612.25); the session figure is used. Gains by source/time: +0.84% (6:10 AM, Investing.com), +0.79% (7:34 AM, Swingfolio), +0.6% (CNBC 8:20 AM), +0.97% (8:43 AM, Yahoo). The implied NDX open uses Friday's ~149-pt premium (NQ settle 28,534.00 vs NDX close 28,384.85) and is an estimate; NDX-equivalent levels use the same basis. Premarket stock moves are vs Friday's close at ~8:30 AM ET and are thin. ISM Manufacturing and construction spending are after the cutoff; a construction spending consensus wasn't found. December hike odds differ by source (72% FedWatch via third parties, 79% ZQ calc, ~70% prediction markets); the CME FedWatch page itself wasn't read. Apple and Palantir consensus (EPS ~$1.98 and ~$0.33) come from Gotrade/Nasdaq and weren't confirmed elsewhere. No megacap reported over the weekend."
+}

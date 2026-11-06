@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-23",
+  "as_of": "2026-10-23T08:49:00-04:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "STAND_ASIDE",
+  "conviction": "low",
+  "bias": "Neutral",
+  "headline": "After Thursday's −2.9% AI rout, NQ is only −0.3% pre-open inside a tight overnight range. Oil at $101/$114 and flash PMI at 9:45 cut both ways. Wait for a break of the overnight range.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window",
+  "flip": {
+    "long": "NQ breaks and holds above the overnight high (29,274; ≈ NDX 29,091) after 9:30, with chips (MU/AMD/NVDA) holding their premarket bounce and the 10-year staying under ~5.00%.",
+    "short": "NQ breaks the overnight low (29,022.75; ≈ NDX 28,840), which also puts cash NDX below Thursday's 28,855 low. Short failed retests, especially if WTI pushes further above $101 or the 9:45 PMIs run hot."
+  },
+  "thesis": "There's no clear edge at the open. Thursday's AI selloff took the NDX down 2.9% to 28,958.69 (low 28,855.10) after Meta fell ~7–8% on its capex plans and AMD and Nvidia dropped 8% and 4.4% [1,3]. Overnight, Nasdaq-100 futures are only modestly lower at ~29,062–29,070 (−0.25 to −0.27%, 8:32–8:40 AM ET), trading inside a narrow 29,022.75–29,274.00 range [2,4]. Chips and neoclouds are bouncing premarket (AMD and Micron ~+1%), while Meta is −0.6% and telecoms are −4–5% on the SpaceX wireless report [3,5,6]. The headwinds are oil and rates. WTI is ~$101 (+1.7%) and Brent ~$114–115 on reports of renewed US/Israeli strikes on Iran [4,6]. The 10-year has ticked up ~2 bp to ~4.976% after Thursday's biggest one-day drop since March 2023 [5,7]. Fed pricing has edged hawkish: October hike odds are 13.8% (8.0% a day ago), and **Dec: 69% for one hike, 10.5% for two** [8]. No data came out before the open. The **9:45 AM flash PMIs** and the 10:00 AM final UMich sentiment arrive inside the first 30 minutes [9,10]. With futures implying a cash open near ~28,880 (just above Thursday's 28,855 low) and catalysts that point both ways, the call is **stand aside until the overnight range breaks**.",
+  "evidence_cutoff": "Fri Oct 23, 2026, 8:49 AM ET (9:49 AM Atlantic). Latest futures quotes: 8:32 AM ET (Markets Insider), 8:40 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "29,062.25",
+      "delta": "−79.75 / −0.27%",
+      "dir": "down",
+      "note": "Yahoo 8:40 AM ET; Markets Insider 29,069.75 (−0.25%) at 8:32"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "29,022.75 – 29,274.00",
+      "delta": "",
+      "dir": "flat",
+      "note": "Yahoo Oct 23 bar; prior settle 29,142.00"
+    },
+    {
+      "label": "NDX close (Thu)",
+      "value": "28,958.69",
+      "delta": "H 29,411.76 / L 28,855.10",
+      "dir": "down",
+      "note": "−863.83 / −2.90% on the day"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "~4.976%",
+      "delta": "≈ +2 bp",
+      "dir": "down",
+      "note": "vs 4.953% prior close (Yahoo ^TNX); 2-yr ~4.66%"
+    },
+    {
+      "label": "Dollar index",
+      "value": "101.72",
+      "delta": "+0.11%",
+      "dir": "flat",
+      "note": "vs 101.61 prior close, 8:40 AM ET"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$101.15 / $114.93",
+      "delta": "+1.7% / +1.6%",
+      "dir": "flat",
+      "note": "Brent at a 5-month high; Iran strike reports"
+    },
+    {
+      "label": "Oct 28 hike odds",
+      "value": "13.8%",
+      "delta": "prev day 8.0%",
+      "dir": "flat",
+      "note": "Dec: 69% one hike, 10.5% two (CME-based); fed funds 3.75–4.00%"
+    },
+    {
+      "label": "VIX",
+      "value": "~20.0",
+      "delta": "+5%",
+      "dir": "flat",
+      "note": "Yahoo, pre-open"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ overnight high",
+      "value": "29,274.00",
+      "role": "long",
+      "note": "Break & hold → LONG trigger (≈ NDX 29,091)"
+    },
+    {
+      "label": "Fri Oct 16 close (NDX)",
+      "value": "29,187.55",
+      "role": "resistance",
+      "note": "Prior week's close; reclaim would erase the weekly loss"
+    },
+    {
+      "label": "NQ prior settle",
+      "value": "29,142.00",
+      "role": "pivot",
+      "note": "Above = buyers absorbing; below = drift lower"
+    },
+    {
+      "label": "Implied NDX open",
+      "value": "~28,880",
+      "role": "pivot",
+      "note": "Estimate: NQ ~29,062 minus ~183-pt basis (Thu settle vs close)"
+    },
+    {
+      "label": "Thursday low (NDX)",
+      "value": "28,855.10",
+      "role": "short",
+      "note": "Cash break below → SHORT bias"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "29,022.75",
+      "role": "short",
+      "note": "Break → SHORT trigger (≈ NDX 28,840)"
+    },
+    {
+      "label": "Thursday high (NDX)",
+      "value": "29,411.76",
+      "role": "resistance",
+      "note": "Out of reach unless a strong reversal"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.95% / 5.00%",
+      "role": "pivot",
+      "note": "Back below 4.95% = support for tech; above 5.00% = pressure"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The rout is pausing, not reversing.",
+          "text": "NDX fell 2.9% Thursday, its worst day since June, after Meta (~−7–8%) reported its first cash outflow in more than a decade on AI spending. AMD fell ~8% and Nvidia 4.4% [1,3,5]. Premarket, NQ is only −0.25 to −0.3%, and Reuters says Mag 7 names are 'little changed' [2,3,4]."
+        },
+        {
+          "label": "Tight overnight range = no gap edge.",
+          "text": "NQ has traded 29,022.75–29,274.00 (~250 pts) against a 29,142 settle [2]. On a ~183-pt futures premium, that implies a cash open near ~28,880, right on top of Thursday's 28,855 low [1,2]. That's an estimate, not a quote."
+        },
+        {
+          "label": "Catalysts inside the first 30 minutes.",
+          "text": "S&P Global flash PMIs at 9:45 AM ET (consensus mfg 55.4, services 57.9) and final UMich sentiment at 10:00 AM (consensus 46.3, 1-yr inflation expectations 4.7%) [9,10]. No 8:30 data and no Fed speakers. The FOMC meets Oct 27–28 [9,11]."
+        },
+        {
+          "label": "Macro tilt is mildly negative.",
+          "text": "WTI is above $101 and Brent ~$114.9 on Iran strike reports. The 10-year is up ~2 bp to ~4.976%, and October hike odds rose to 13.8% from 8.0% [4,6,7,8]. Against that, chips are bouncing premarket and the 10-year is still below 5% after Thursday's big rally [5,7]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "After a −2.9% day, futures are barely lower and chips/neoclouds are bouncing (AMD and Micron ~+1%, SK Hynix rebounding). The 10-year is near 4.97% after its biggest one-day drop since March 2023, and the WSJ says early trade suggests the AI rout 'could find a floor for now' [3,5,6,12]. A hold of Thursday's low could spark a Friday short-covering bounce toward 29,187 (last Friday's close) [1]."
+        },
+        {
+          "label": "Bear case:",
+          "text": "The AI-capex/financing story hasn't been resolved (Jensen Huang: 'scarcity of capital'), and Microsoft/Alphabet/Amazon don't report until next week. Oil above $100 with Iran escalation risk keeps December hike pricing firm. A cash open near Thursday's low that fails could become a breakdown into the weekend [3,6,8]."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ breaks and holds above the overnight high (29,274; ≈ NDX 29,091) through the first 30 min, ideally with a soft/in-line flash PMI, the 10-year back under ~4.95%, and SMH holding its premarket bounce."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ breaks the overnight low (29,022.75), so cash NDX trades below Thursday's 28,855 low. Stronger if WTI extends above ~$102, the PMIs or UMich inflation expectations run hot, or the 10-year pushes back above 5.00%."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "US/Israel–Iran headlines, SpaceX wireless/telecom news, AI-financing or neocloud credit headlines, and any pre-blackout Fed leak ahead of the Oct 28 decision [3,4,6,11]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX) historical data: Thu Oct 22 O 29,304.30 / H 29,411.76 / L 28,855.10 / C 28,958.69 (−2.90%); Fri Oct 16 C 29,187.55.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 29,062.25 −79.75 (−0.27%) at 8:40 AM ET; Oct 23 session O 29,116.50 / H 29,274.00 / L 29,022.75; Oct 22 settle 29,142.00.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/history/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 3,
+      "text": "Reuters via Investing.com, \"Wall Street futures edge lower after AI selloff, telecom slide\" (Oct 23, updated 7:42 AM ET; NQ −0.12% at 7:19 AM ET; Meta, telecom, earnings-week context).",
+      "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-dip-after-ai-rout-telecoms-slide-4968816",
+      "link_label": "investing.com"
+    },
+    {
+      "id": 4,
+      "text": "Markets Insider, premarket quotes (NASDAQ 100 Futures 29,069.75, −72.25 / −0.25%, 8:32 AM ET; WTI 101.15 +1.69%, Brent 114.93 +1.56%; Euro Stoxx 50 −0.81%).",
+      "url": "https://markets.businessinsider.com/premarket",
+      "link_label": "markets.businessinsider.com/premarket"
+    },
+    {
+      "id": 5,
+      "text": "CNBC live updates, \"Stock futures remain under pressure amid AI trade worries, gain in oil above $100\" (updated Oct 23, 8:49 AM ET): NQ −0.3%; 10-yr ~4.97%, 2-yr ~4.66%; MU/AMD +1% premarket; telecom slide; Thursday's yield drop the largest since March 2023.",
+      "url": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
+      "link_label": "cnbc.com"
+    },
+    {
+      "id": 6,
+      "text": "Stocktwits via Yahoo Finance, \"Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV…\" (Oct 23, 6:13 AM ET): Brent ~$114, WTI >$101; Huang 'scarcity of capital'; NDX −2.9% Thursday.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-futures-101348956.html",
+      "link_label": "finance.yahoo.com"
+    },
+    {
+      "id": 7,
+      "text": "Yahoo Finance, ^TNX 4.976 (+0.023; prev close 4.953) at ~8:35 AM ET; DX-Y.NYB 101.72 (+0.11%; prev 101.61) at 8:40 AM ET; VIX ~20.0 (+5%).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "finance.yahoo.com/quote/^TNX"
+    },
+    {
+      "id": 8,
+      "text": "Investing.com Fed Rate Monitor (CME 30-day fed funds futures, updated Oct 23, 8:15 AM ET): Oct 28 hold 86.2% / hike 13.8% (prev day 8.0%); Dec 9 3.75–4.00 20.5%, 4.00–4.25 69.0%, 4.25–4.50 10.5%.",
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor",
+      "link_label": "investing.com/central-banks/fed-rate-monitor"
+    },
+    {
+      "id": 9,
+      "text": "MarketSquawk calendar, Friday Oct 23, 2026: S&P Global US flash PMI 9:45 AM ET, UMich sentiment (final) 10:00 AM ET, Baker Hughes 1:00 PM ET. Cross-checked against the Macro Bullseye October 2026 calendar.",
+      "url": "https://marketsquawk.ai/calendar/today",
+      "link_label": "marketsquawk.ai"
+    },
+    {
+      "id": 10,
+      "text": "Investing.com, \"PMI data and consumer sentiment among economic releases due Friday\" (Oct 22): mfg PMI f'cast 55.4 (prev 55.9), services 57.9 (prev 58.8); UMich 46.3 (prev 48.1), 1-yr infl. exp. 4.7%, 5-yr 3.5%.",
+      "url": "https://www.investing.com/news/stock-market-news/pmi-data-and-consumer-sentiment-among-economic-releases-due-friday-93CH-4967147",
+      "link_label": "investing.com"
+    },
+    {
+      "id": 11,
+      "text": "Federal Reserve Board, Calendar October 2026 (FOMC Oct 27–28; no Board speakers Oct 23).",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "link_label": "federalreserve.gov"
+    },
+    {
+      "id": 12,
+      "text": "WSJ live coverage, \"Stock Market Today: Nasdaq Futures Steady After Selloff; Oil Prices Hit 5-Month High\" (Oct 23, 8:33 AM ET).",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026",
+      "link_label": "wsj.com"
+    }
+  ],
+  "data_notes": "NQ quotes are indicative (Markets Insider is from market makers; Yahoo may be delayed ~10 min). The overnight range comes from Yahoo's Oct 23 daily bar as of 8:40 AM ET and may have changed since. The implied NDX open uses Thursday's ~183-pt premium (NQ settle 29,142 vs NDX close 28,958.69) and is an estimate. The 10-year is ~4.97–4.976% across CNBC and Yahoo (+1 to +2 bp). Fed odds differ by source: Investing.com shows 13.8% for an October hike (8:15 AM ET), CME FedWatch via GMT Eight shows 7.2%, and a FedWatch-method mirror shows 12.0% (12:45 UTC). The Investing.com calendar lists PMI/UMich times an hour earlier (8:45/9:00), probably a time-zone display issue; the standard 9:45/10:00 AM ET times are used. No US data was released before the open and no Fed speakers are scheduled. No Nasdaq-100 megacap reports today: overnight reports were Western Digital (beat, −5% AH) and Bloom Energy; before the open, AmEx, HCA, SLB and others (non-NDX). Microsoft, Alphabet and Amazon report next week."
+}

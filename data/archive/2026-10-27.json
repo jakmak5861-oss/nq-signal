@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-27",
+  "as_of": "2026-10-27T08:52:00-04:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "LONG",
+  "conviction": "low",
+  "bias": "Mildly bullish",
+  "headline": "NQ is +0.5% at its overnight high, pointing to a cash open above Monday's NDX high as the AI rebound continues. Small long only while NQ holds above Monday's settle; the Fed, Microsoft and Alphabet all land Wednesday.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window",
+  "flip": {
+    "long": "Stays LONG while NQ holds above ~29,570 (≈ NDX 29,404, Monday's high) after the open. Adds conviction above the overnight high 29,627.75.",
+    "short": "NQ fills the gap and loses Monday's settle (29,437.25; ≈ NDX 29,273, Monday's close). Stronger below the overnight low (29,288), especially if oil jumps on Gulf headlines or the 10-year moves back above 5.00%."
+  },
+  "thesis": "There's a small long edge at the open, but it's low conviction. The NDX rose 1.1% Monday to 29,273.40 (range 29,011.91–29,404.44) on the Anthropic IPO filing [1,4]. Overnight, Nasdaq-100 futures firmed through the morning, from +0.1% at 5:30 AM to **+0.5–0.6% (~29,589–29,612) by 8:30–8:41 AM ET**, at the top of a 29,288.00–29,627.75 range [2,3,4]. With a ~164-pt futures premium, that implies a cash open near ~29,425, **above Monday's 29,404 high**, so it's an upside range break, not a gap inside the range [1,2]. Macro is neutral to mildly helpful. The 10-year is ~4.99%, just under 5% [6]. WTI is ~$101 and Brent ~$110, both lower on the day, though Gulf headlines (a reported strike on Ras Tanura, US evacuation of some Gulf embassy staff) keep oil jumpy [6,7,8]. The dollar is firmer at ~102.2 [6,7]. September durable goods rose 1.8% (ex-transport +0.5%); consensus differs by source [9,10]. The risk is Wednesday: the FOMC decision (~10% hike odds this week; **~81% for a December hike**), with Microsoft and Alphabet after the close [4,5]. Barron's calls the tape cautious, with rotation into defensives [5]. So the call is **a small LONG while NQ holds above Monday's high zone, out on a loss of Monday's settle**.",
+  "evidence_cutoff": "Tue Oct 27, 2026, 8:52 AM ET (9:52 AM Atlantic). Latest futures quotes: 8:30 AM ET (Markets Insider), 8:41 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "29,588.75",
+      "delta": "+151.50 / +0.51%",
+      "dir": "up",
+      "note": "Yahoo 8:41 AM ET vs Mon settle 29,437.25; Markets Insider 29,612.00 (+0.59%) at 8:30"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "29,288.00 – 29,627.75",
+      "delta": "",
+      "dir": "flat",
+      "note": "Yahoo Oct 27 bar; trading near the high"
+    },
+    {
+      "label": "NDX close (Mon)",
+      "value": "29,273.40",
+      "delta": "H 29,404.44 / L 29,011.91",
+      "dir": "up",
+      "note": "+315.87 / +1.09% vs Fri 28,957.53"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "~4.995%",
+      "delta": "≈ +0.9 bp",
+      "dir": "flat",
+      "note": "vs 4.986% Mon close (Yahoo ^TNX, 8:36 AM ET); day range 4.972–4.995%"
+    },
+    {
+      "label": "Dollar index",
+      "value": "102.16",
+      "delta": "+0.20%",
+      "dir": "up",
+      "note": "vs 101.96 Mon close, 8:41 AM ET; day range 101.99–102.29"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$101.19 / $110.30",
+      "delta": "−0.6% / −4.8%*",
+      "dir": "up",
+      "note": "Yahoo 8:41 AM ET. *Brent change includes a roll to the Jan contract; Newsquawk shows Brent Jan −0.7%"
+    },
+    {
+      "label": "Durable goods (Sep)",
+      "value": "+1.8%",
+      "delta": "ex-transport +0.5%",
+      "dir": "flat",
+      "note": "Census 8:30 AM ET; Aug revised +0.1%. Consensus differs by source (0.6% / 2.0%)"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Oct 28: ~10% hike",
+      "delta": "Dec hike ~81%",
+      "dir": "flat",
+      "note": "CME FedWatch per Yahoo / Barron's"
+    },
+    {
+      "label": "VIX",
+      "value": "17.78",
+      "delta": "−0.61 / −3.3%",
+      "dir": "up",
+      "note": "vs 18.39 Mon close (Yahoo)"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ overnight high",
+      "value": "29,627.75",
+      "role": "long",
+      "note": "Break & hold → adds to LONG (≈ NDX 29,464)"
+    },
+    {
+      "label": "Implied NDX open",
+      "value": "~29,425",
+      "role": "pivot",
+      "note": "Estimate: NQ ~29,589 minus ~164-pt basis (Mon settle vs close)"
+    },
+    {
+      "label": "Monday high (NDX)",
+      "value": "29,404.44",
+      "role": "long",
+      "note": "≈ NQ 29,568. Cash holding above = range break; LONG stays on"
+    },
+    {
+      "label": "NQ Monday settle",
+      "value": "29,437.25",
+      "role": "short",
+      "note": "Gap-fill level (≈ NDX 29,273, Mon close). Losing it → flip SHORT"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "29,288.00",
+      "role": "short",
+      "note": "Break → stronger SHORT (≈ NDX 29,124)"
+    },
+    {
+      "label": "Monday low (NDX)",
+      "value": "29,011.91",
+      "role": "support",
+      "note": "Bottom of Monday's range"
+    },
+    {
+      "label": "Oct 21 close (NDX)",
+      "value": "29,822.52",
+      "role": "resistance",
+      "note": "Last close before Thursday's 2.9% AI selloff; upside target"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "5.00%",
+      "role": "pivot",
+      "note": "Holding under = fine for tech; sustained move above = pressure"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The gap is up, and it's above Monday's high.",
+          "text": "NQ is +0.5–0.6% and trading near its overnight high of 29,627.75 [2,3]. On a ~164-pt premium, that implies a cash open around ~29,425, just above Monday's 29,404 NDX high, so the rebound from last week's AI selloff is extending [1,2]. That's an estimate, not a quote."
+        },
+        {
+          "label": "Futures firmed through the morning.",
+          "text": "NQ was only +0.1% at 5:30 AM ET and briefly −0.2% around 6:20 AM, then climbed to +0.5–0.6% by 8:30 AM [3,4,7]. AI stocks are still running on Anthropic's public IPO prospectus, and Korean chip stocks led Asia higher [4]. Cadence (NDX) is up ~3% premarket after a beat-and-raise [7]."
+        },
+        {
+          "label": "Macro is neutral to mildly helpful.",
+          "text": "The 10-year is flat at ~4.99%, still just under 5%, and VIX is down to ~17.8 [6]. Oil is slightly lower (WTI ~$101) but jumpy on Gulf headlines [6,7,8]. The dollar is firmer at ~102.2 [6,7]. September durable goods rose 1.8% (ex-transport +0.5%), a mixed print with no clear market impact [9,10]."
+        },
+        {
+          "label": "Today's calendar is light; Wednesday is heavy.",
+          "text": "Still to come today: Richmond Fed and Dallas Fed services; no Fed speakers, since the FOMC starts its two-day meeting today [5,7]. Boeing, PayPal, SoFi and Coca-Cola reported before the open; Visa and Robinhood report after the close [8,11]. Microsoft and Alphabet report Wednesday after the Fed decision [4,5]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "Monday's +1.1% was a solid follow-through day after two flat closes, and the open looks set to break above Monday's high with VIX falling [1,6]. With yields capped near 5% and oil off its highs, positioning ahead of Microsoft and Alphabet could lift NDX back toward the 29,822 level from before the selloff [1,6]."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Barron's describes a cautious tape: chip buying is fading and money is rotating into defensives ahead of Wednesday [5]. Newsquawk had NQ lagging ES/YM earlier this morning [7]. December hike odds are ~81%, debt-funded AI spending (Meta's $97.5B equity raise) is still a concern, and Gulf headlines could push oil and short-end yields up quickly [5,8,12]. A gap into heavy event risk can easily fade back to Monday's settle."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Stay/scale LONG:",
+          "text": "Cash NDX holds above Monday's 29,404 high (≈ NQ 29,568) through the first 30 min. Add on a break of the NQ overnight high 29,627.75, ideally with SMH green and the 10-year under 5.00%."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ fills the gap and loses Monday's settle (29,437.25; ≈ NDX 29,273). Stronger below the overnight low (29,288), especially if WTI moves back above ~$103 or the 10-year holds above 5.00%."
+        },
+        {
+          "label": "Flip to STAND ASIDE:",
+          "text": "If the open stalls in the 29,437–29,568 NQ band (between Monday's settle and its high) with no follow-through, there's no edge. Go flat into Wednesday."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "US–Iran/Gulf headlines (Ras Tanura, embassy evacuations), Anthropic IPO news, Meta's equity raise, Israeli election exit polls at 4:00 PM ET, and any Fed leak before Wednesday [7,8,12]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX) daily data: Mon Oct 26 O 29,051.58 / H 29,404.44 / L 29,011.91 / C 29,273.40; Fri Oct 23 C 28,957.53; Wed Oct 21 C 29,822.52.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 29,588.75 at 8:41 AM ET; Oct 27 session O 29,480.50 / H 29,627.75 / L 29,288.00; Oct 26 settle 29,437.25.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/history/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 3,
+      "text": "Markets Insider, premarket quotes: NASDAQ 100 Futures 29,612.00 (+174.75 / +0.59%), S&P 500 Futures 7,745.50 (+0.40%), Dow Futures +0.37% at 8:30 AM ET.",
+      "url": "https://markets.businessinsider.com/premarket",
+      "link_label": "markets.businessinsider.com/premarket"
+    },
+    {
+      "id": 4,
+      "text": "Yahoo Finance live blog, \"Stock market today: Dow, S&P 500, Nasdaq drift higher as tech bounces back\" (Oct 27, 7:59 AM ET): NQ +0.3%; Anthropic IPO prospectus; KOSPI chip rally; GOOG/MSFT report Wednesday; 10% hike odds this week (CME).",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
+      "link_label": "finance.yahoo.com"
+    },
+    {
+      "id": 5,
+      "text": "Barron's live coverage, \"Dow, S&P 500, Nasdaq Trading Cautious as Tech Earnings, Fed Rate Call Loom\" (Oct 27): dip-buying in chips abating, rotation into defensives; CME FedWatch 81% for a December hike; MSFT/GOOGL after the bell Wednesday.",
+      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-102726",
+      "link_label": "barrons.com"
+    },
+    {
+      "id": 6,
+      "text": "Yahoo Finance quotes, ~8:36–8:41 AM ET: ^TNX 4.995 (Mon close 4.986); DX-Y.NYB 102.16 (Mon 101.96); CL=F 101.19 (Mon 101.76); BZ=F 110.30; ^VIX 17.78 (Mon 18.39).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "finance.yahoo.com/quote/^TNX"
+    },
+    {
+      "id": 7,
+      "text": "Newsquawk, \"Daily US Opening News – 27th October 2026\" (as of 6:20 AM ET): NQ −0.2%, DXY 102.23, US 10y 4.986%; WTI range 100.60–102.82; Ras Tanura strike report; CDNS +3.1% premarket; US docket: Durable Goods, Richmond Fed, Dallas Fed Services; Israeli exit polls 4:00 PM ET.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---27th-october-2026",
+      "link_label": "newsquawk.com"
+    },
+    {
+      "id": 8,
+      "text": "Reuters via Investing.com, \"US stock futures gain as oil pulls back ahead of Fed decision\" (Oct 27, updated 7:30 AM ET): NQ +0.27% at 6:56 AM; Fed expected to hold after last month's hike; markets price at least two more hikes by mid-2027; KO +0.3%, PYPL −1%.",
+      "url": "https://www.investing.com/news/economy-news/us-stock-futures-muted-as-oil-holds-near-april-highs-ahead-of-fed-decision-4974650",
+      "link_label": "investing.com"
+    },
+    {
+      "id": 9,
+      "text": "U.S. Census Bureau, advance durable goods report (Oct 27, 8:30 AM ET): September new orders +1.8% to $345.4B; ex-transport +0.5%; ex-defense +2.2%; nondefense capital goods orders +6.2%; August revised +0.1%.",
+      "url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf",
+      "link_label": "census.gov"
+    },
+    {
+      "id": 10,
+      "text": "Consensus for durable goods: Helious 0.6% (prior 0.0%); Investing.com economic calendar 2.0% (prior 0.1%).",
+      "url": "https://www.investing.com/economic-calendar/durable-goods-orders-86",
+      "link_label": "investing.com calendar"
+    },
+    {
+      "id": 11,
+      "text": "Stocktwits, \"Nasdaq, S&P 500 Futures Gain Premarket While Oil Rebounds\" (Oct 27, 6:19 AM ET): NQ +0.11% at 5:30 AM; Monday NDX +1.1%; BA, PYPL, SOFI, KO before the open; HOOD, V after the close; FOMC begins two-day meeting.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-gain-premarket-while-oil-rebounds-cls-nvda-skhy-crwv-sofi-in-focus/cZUe5Q4RBz6",
+      "link_label": "stocktwits.com"
+    },
+    {
+      "id": 12,
+      "text": "GMT Eight flash (Oct 27): US preparing to evacuate some Gulf embassy staff; oil turned higher, 2y–10y Treasury futures hit intraday lows. Economic Times live blog: Meta raised its planned equity raise to $97.5B.",
+      "url": "https://gmteight.com/flash/detail/1567643",
+      "link_label": "gmteight.com"
+    }
+  ],
+  "data_notes": "NQ quotes are indicative (Markets Insider prices come from market makers; Yahoo may be delayed ~10 min). NQ's change varies by time and source: +0.1% (5:30 AM), −0.2% (Newsquawk, 6:20 AM), +0.27% (Reuters, 6:56 AM), +0.3% (Yahoo blog, 7:59 AM), +0.51–0.59% (8:30–8:41 AM). The overnight range is Yahoo's Oct 27 bar as of 8:41 AM ET. The implied NDX open uses Monday's ~164-pt premium (NQ settle 29,437.25 vs NDX close 29,273.40) and is an estimate. The Brent quote on Yahoo (BZ=F $110.30) reflects a front-month roll to January, so its −4.8% versus the prior front-month close overstates the move; Newsquawk shows Brent Jan −0.7%. Durable goods consensus conflicts (0.6% Helious vs 2.0% Investing.com), so the surprise direction is unclear; core capital goods ex-aircraft wasn't found in the sources read. December hike odds: Barron's cites 81% (CME FedWatch); FedWatch wasn't checked directly. No Fed speakers today (FOMC meeting starts). Amazon reports later this week; no megacap reported overnight."
+}

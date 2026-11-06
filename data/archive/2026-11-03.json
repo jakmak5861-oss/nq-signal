@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-03",
+  "as_of": "2026-11-03T08:52:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "STAND_ASIDE",
+  "conviction": "low",
+  "bias": "Neutral",
+  "headline": "NQ is +0.9% near its overnight high after Monday's −1.4% NDX close at the lows, but Apple and Palantir are sliding on earnings and it's Election Day. Stand aside at the open; go LONG above 28,424, SHORT below Monday's 28,127.5 settle.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · JOLTS + factory orders 10:00 AM ET · no Fed speakers · AMD after close · midterm results tonight",
+  "flip": {
+    "long": "LONG on a break and hold of the overnight high 28,424 (≈ NDX 28,286), meaning the chip-led bounce is overpowering Apple's drag. Stronger if the 10-year stays under 4.90% after JOLTS.",
+    "short": "SHORT if NQ loses Monday's settle 28,127.5 (≈ NDX 27,990, Monday's close and low), meaning the gap filled and the selling is back. Stronger below the overnight low 28,038 (≈ NDX 27,900)."
+  },
+  "thesis": "No clear edge at the open, so stand aside. Monday's long call failed: the **NDX fell 1.39% to 27,989.82 and closed at its low** (range 27,967.44–28,753.39) as chips sold off again, and the index is now in a technical correction [1,4]. **NQ is +251 pts / +0.89% at 28,378.50 (8:37 AM ET)**, near the top of a 28,038.25–28,423.75 overnight range, as dip buyers go back into chips (MU, INTC, SNDK +3% or more; NVDA +1.4%) [2,4]. On Monday's ~138-pt futures premium, that implies a cash open near ~28,241 [1,2]. But the heaviest stocks are going the other way: **Apple is down ~4–6% premarket** on a 45–46% gross-margin guide hit by memory costs, Palantir is down ~6–9% on slowing contract growth, and MSFT and AMD are lower ahead of AMD's report tonight [3,5]. Macro is mixed to slightly helpful: oil swung up overnight on a US strike on Iran's Qeshm Island, but WTI is now −2% at ~$94.6 and Brent −2.5% at ~$102.2; the 10-year is flat at ~4.89%, the dollar is flat at ~101.78, and VIX is lower at ~20.5 [6,9]. December hike odds are ~75% (CME FedWatch) [8]. It's Election Day: expect light volume and tight ranges, with the real move likely once results come in tonight [4,5]. So **stand aside unless NQ clears 28,424 (long) or loses 28,127.5 (short)**, and keep size small either way, with JOLTS at 10:00.",
+  "evidence_cutoff": "Tue Nov 3, 2026, 8:52 AM ET (9:52 AM Atlantic). Latest futures quote: 8:37 AM ET; premarket stocks 8:47 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "28,378.50",
+      "delta": "+251.00 / +0.89%",
+      "dir": "up",
+      "note": "Yahoo 8:37 AM ET vs Mon settle 28,127.50"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "28,038.25 – 28,423.75",
+      "delta": "",
+      "dir": "flat",
+      "note": "Yahoo Nov 3 session (from 6 PM ET Mon); trading near the high"
+    },
+    {
+      "label": "NDX close (Mon)",
+      "value": "27,989.82",
+      "delta": "H 28,753.39 / L 27,967.44",
+      "dir": "down",
+      "note": "−395.03 / −1.39% vs Fri 28,384.85; closed at the low"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.89%",
+      "delta": "flat vs 4.894",
+      "dir": "flat",
+      "note": "Yahoo ^TNX 8:32 AM ET (range 4.894–4.931)"
+    },
+    {
+      "label": "Dollar index",
+      "value": "101.78",
+      "delta": "+0.03 / flat",
+      "dir": "flat",
+      "note": "Yahoo 8:37 AM ET; day range 101.62–101.90"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$94.55 / $102.19",
+      "delta": "−2.0% / −2.5%",
+      "dir": "flat",
+      "note": "Yahoo 8:37 AM ET (prior settles 96.46 / 104.77). Overnight high 98.82 / 107.21 on the Qeshm strike"
+    },
+    {
+      "label": "JOLTS (Sep)",
+      "value": "10:00 AM ET",
+      "delta": "est. ~7.11–7.16M",
+      "dir": "flat",
+      "note": "Prior 7.08M. Factory orders est. +1.2% (prior +0.1%). No 8:30 data today"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~75%",
+      "delta": "≈ +3 pts vs Mon (72%)",
+      "dir": "flat",
+      "note": "CME FedWatch via FX678/5iter, ~6 AM ET; Growbeansprout 73.8%"
+    },
+    {
+      "label": "VIX",
+      "value": "20.52",
+      "delta": "−0.63 / −3.0%",
+      "dir": "up",
+      "note": "Yahoo 8:32 AM ET vs Mon 21.15"
+    },
+    {
+      "label": "Megacaps pre-mkt",
+      "value": "AAPL −6.3% · MSFT −3.2%",
+      "delta": "NVDA +1.4% · AMZN +3.5%",
+      "dir": "down",
+      "note": "Yahoo 8:47 AM ET vs Mon close: PLTR −9.1%, AMD −3.8%, META −1.1%, GOOGL +0.1%, TSLA +1.9%"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "Mon NDX high",
+      "value": "28,753.39",
+      "role": "resistance",
+      "note": "≈ NQ 28,891 (also Monday's NQ session high)"
+    },
+    {
+      "label": "NQ overnight high",
+      "value": "28,423.75",
+      "role": "long",
+      "note": "Break and hold → LONG (≈ NDX 28,286)"
+    },
+    {
+      "label": "Implied NDX open",
+      "value": "~28,241",
+      "role": "pivot",
+      "note": "Estimate: NQ 28,378.5 minus ~138-pt basis (Mon settle vs close)"
+    },
+    {
+      "label": "NQ overnight midpoint",
+      "value": "~28,231",
+      "role": "pivot",
+      "note": "Below = bounce fading; still stand aside above 28,127.5"
+    },
+    {
+      "label": "NQ Mon settle",
+      "value": "28,127.50",
+      "role": "short",
+      "note": "Gap fill → SHORT (≈ NDX 27,990, Monday's close and low)"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "28,038.25",
+      "role": "short",
+      "note": "Break → stronger SHORT (≈ NDX 27,900), new low for the selloff"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.89%",
+      "role": "pivot",
+      "note": "Under 4.90% = tailwind; strong JOLTS pushing toward 5% = pressure"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The gap is up, but it's into a weak close.",
+          "text": "NQ is +0.89% at 28,378.50, near its 28,423.75 overnight high [2]. But Monday's NDX closed at its 27,967–27,990 low after failing at 28,753, and the index is in a technical correction [1,4]. A ~28,241 implied open is still well inside Monday's range. That's an estimate, not a quote."
+        },
+        {
+          "label": "Megacaps are split.",
+          "text": "Chips are bouncing (MU, INTC, SNDK +3% or more; NVDA +1.4%) and AMZN is +3.5% [2,4]. But Apple is −4–6% on a weak margin guide, Palantir −6–9% on slowing contract value growth, and MSFT −3% [3,5]. Apple's weight in the NDX makes it a real drag on the cash open."
+        },
+        {
+          "label": "Macro is neutral to slightly helpful.",
+          "text": "Oil is lower again after an overnight jump on the Qeshm strike, the 10-year is flat at ~4.89%, and VIX is −3% [6,9]. December hike odds are ~75% [8]."
+        },
+        {
+          "label": "Election Day keeps ranges tight.",
+          "text": "Barron's expects light volume, tight ranges and defensive rotation, with the big move likely after results come in tonight and Wednesday [4]. JOLTS and factory orders hit at 10:00 AM ET; there are no Fed speakers [7]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "Futures have held most of their gains all night, chips are being bought after a two-day selloff, oil is falling and VIX is easing [2,4,9]. A cash open that holds above the overnight high could squeeze toward Monday's 28,753 high."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Monday's bounce failed hard and closed at the low, so dip buyers have been trapped twice [1]. Apple and Palantir are confirming worries about AI costs and slowing growth [3,5]. Oil can jump again on Iran headlines, and a strong JOLTS could push yields and hike odds higher [6,8]. Election de-risking adds to selling pressure into the close."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ breaks and holds above the overnight high 28,423.75 (≈ NDX 28,286) in the first 30 minutes, ideally with the 10-year under 4.90% after JOLTS and Apple stabilizing."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ loses Monday's settle 28,127.50 (≈ NDX 27,990), filling the gap. Stronger below the overnight low 28,038.25 (≈ NDX 27,900), a new low for the selloff."
+        },
+        {
+          "label": "Stay STAND ASIDE:",
+          "text": "NQ chops between 28,127.5 and 28,424, which is likely on Election Day. Cut size into the close: midterm results and AMD earnings come after the bell."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "JOLTS and factory orders at 10:00 AM ET, US–Iran headlines and oil, AMD after the close, and early election results tonight [4,6,7]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX): Mon Nov 2 O 28,561.17 / H 28,753.39 / L 27,967.44 / C 27,989.82; Fri Oct 30 C 28,384.85.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 28,378.50 at 8:37 AM ET; Nov 3 session H 28,423.75 / L 28,038.25, open 28,201.00; Nov 2 settle 28,127.50. Premarket stock quotes 8:47 AM ET: AAPL 323.10, PLTR 167.33, NVDA 207.59, MSFT 505.00, AMD 485.70, AMZN 248.82.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 3,
+      "text": "CNBC, \"Apple shares slide after weak margin outlook; Palantir slumps 6% after earnings\" (Nov 3): Apple ~−4%, Palantir −6.5% premarket. Investing.com via Yahoo premarket movers (8:03 AM ET): Apple guides 45–46% gross margin on memory costs; Palantir revenue $2.31B vs ~$2.18B est., TCV +6% y/y.",
+      "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+      "link_label": "cnbc.com (AAPL/PLTR)"
+    },
+    {
+      "id": 4,
+      "text": "Barchart, \"Nasdaq Futures Climb as Chip Stocks Rebound; U.S. Midterms in Focus\" (Nov 3): NQZ26 +0.38%, NDX in technical correction, SNDK/MU/INTC +3%+. Barron's live coverage (Nov 3): Nasdaq futures +0.5%, Dow −0.5%; expect suppressed volume and tight ranges with the real move after election returns.",
+      "url": "https://www.barchart.com/story/news/8611182/nasdaq-futures-climb-as-chip-stocks-rebound-u-s-midterms-in-focus",
+      "link_label": "barchart.com"
+    },
+    {
+      "id": 5,
+      "text": "CNBC, \"Stocks making the biggest moves premarket\" (Nov 3, 7:47 AM ET): Palantir ~−8%, Apple ~−4%. TipRanks (Nov 3): AMD, SMCI, AMGN report today; NDX futures +0.40% at 5:40 AM ET.",
+      "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
+      "link_label": "cnbc.com (movers)"
+    },
+    {
+      "id": 6,
+      "text": "CNBC, \"Oil prices climb after U.S. strikes Iran's Qeshm Island\" (Nov 3): Brent +1.75% to $106.60, WTI +1.7% to $98.10 overnight. Reuters (via Lufkin Daily News): Qatar says US and Iran remain committed to mediation.",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "link_label": "cnbc.com (oil)"
+    },
+    {
+      "id": 7,
+      "text": "Investing.com weekly outlook and XTB calendar (Nov 3): JOLTS 10:00 AM ET est. 7.11M (XTB 7.164M) vs 7.079M; factory orders est. +1.2% vs +0.1%; no Fed speakers Tuesday (Barkin Thu, Williams/Bowman Fri); NFP Fri est. 63K. AMD, Arista, Amgen, Booking after the close.",
+      "url": "https://www.xtb.com/en/market-analysis/economic-calendar-us-midterms-jolts-and-factory-orders-take-center-stage-03-11-2026",
+      "link_label": "xtb.com (calendar)"
+    },
+    {
+      "id": 8,
+      "text": "CME FedWatch via FX678 / 5iter (Nov 3, ~6:06 AM ET): December 74.9% hike / 25.1% hold. Growbeansprout (FedWatch, Nov 3): 73.8%.",
+      "url": "https://www.fx678.com/C/20261103/202611030606012064.html",
+      "link_label": "fx678.com (FedWatch)"
+    },
+    {
+      "id": 9,
+      "text": "Yahoo Finance quotes, ~8:32–8:37 AM ET: ^TNX 4.894 (prev 4.894); DX-Y.NYB 101.78 (prev 101.75); CL=F 94.55 (prev 96.46, H 98.82 / L 93.60); BZ=F 102.19 (prev 104.77); ^VIX 20.52 (prev 21.15); ES=F 7,592 (+0.23%).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "Yahoo quotes"
+    }
+  ],
+  "data_notes": "NQ and other quotes are from Yahoo and may be delayed ~10 min. Gains by source/time: +0.3% (6:17 AM, Investing.com), +0.40% (5:40 AM, TipRanks), +0.38% (Barchart), +0.5% (Barron's), +0.89% (8:37 AM, Yahoo). The implied NDX open uses Monday's ~138-pt premium (NQ settle 28,127.50 vs NDX close 27,989.82) and is an estimate; NDX-equivalent levels use the same basis. Premarket stock moves are Yahoo 8:47 AM ET vs Monday's close and are larger than the ~4% (AAPL) and 6–8% (PLTR) CNBC reported earlier; thin premarket trading. Oil: news reports say oil rose overnight on the Qeshm strike, but Yahoo's latest quotes show WTI and Brent lower on the day. I didn't find a story explaining the reversal. JOLTS and factory orders come after the cutoff; consensus varies (7.11M–7.164M). Fed odds are CME FedWatch as reported by third parties ~6 AM ET; the CME page itself wasn't read. No Fed speakers today per Investing.com. Markets are open normally on Election Day; results come after the close. Apple and Palantir reported Monday after the close; AMD reports after today's close (consensus not checked)."
+}
