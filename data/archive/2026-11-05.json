@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-05",
+  "as_of": "2026-11-05T08:50:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "SHORT",
+  "conviction": "low",
+  "bias": "Mildly bearish",
+  "headline": "Chips are dragging NQ −0.9% to 28,317 while the Dow and small caps keep rallying. Lean SHORT at the open below the overnight midpoint ~28,418; flip LONG on a reclaim of 28,450, add on a break of the 28,167.75 overnight low.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · Fed's Hammack 8:50 and Barkin 9:10 AM ET · NFP Friday",
+  "flip": {
+    "long": "LONG if NQ reclaims and holds 28,450 (above the overnight midpoint ~28,418, ≈ NDX 28,290, back above Wednesday's NDX low 28,276), meaning the megacap bid is outweighing the chip selling. Target Wednesday's settle 28,566.75.",
+    "short": "SHORT stays on while NQ is below ~28,418. Stronger below the overnight low 28,167.75 (≈ NDX 28,038); next target the 28,038 area, Tuesday's NQ low."
+  },
+  "thesis": "A low-conviction lean **SHORT** for the open. **NQ is −249.5 pts / −0.87% at 28,317.25 (8:35 AM ET)** after Wednesday's 1.4% Nasdaq rally, and it sits in the lower half of a 28,167.75–28,668.50 overnight range [1]. The rotation away from tech is speeding up: Dow futures are +0.6%, Russell +0.6% and S&P +0.2% while Nasdaq lags [2,3]. The weight is in semis: **Qualcomm is −10.7%** after missing on Q4 smartphone chip sales and Apple revenue, AMD −4.8%, AVGO −2.5% and NVDA −1.4%, as UBS warns data-center pauses after the Democratic sweep put ~30% of 2028 additions at risk [2,4]. Megacaps are the offset: AMZN +2%, AAPL +1.2%, GOOGL +1.2% and META +0.9% premarket [4]. Labor data stays hot: **jobless claims fell to 189K vs 196K expected** after Wednesday's ADP beat, and **December hike odds are ~82%** [5,6]. The 10-year is flat at ~4.90%, the dollar is +0.1% at 101.6, and oil is bouncing (WTI +1.6% at ~$89.5) [7]. On Wednesday's ~130-pt futures premium, that implies a cash open near **~28,190, below Wednesday's NDX low of 28,276** [1]. So **lean short below ~28,418; flip long above 28,450**.",
+  "evidence_cutoff": "Thu Nov 5, 2026, 8:50 AM ET (9:50 AM Atlantic). Futures and premarket stock quotes 8:35–8:45 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "28,317.25",
+      "delta": "−249.50 / −0.87%",
+      "dir": "down",
+      "note": "Yahoo 8:35 AM ET vs Wed settle 28,566.75"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "28,167.75 – 28,668.50",
+      "delta": "mid ~28,418",
+      "dir": "flat",
+      "note": "Yahoo Nov 5 session"
+    },
+    {
+      "label": "NDX close (Wed)",
+      "value": "28,437.17",
+      "delta": "H 28,829.66 / L 28,276.22",
+      "dir": "up",
+      "note": "+256.91 / +0.91% vs Tue 28,180.26"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.90%",
+      "delta": "+1 bp vs 4.894",
+      "dir": "up",
+      "note": "Yahoo ^TNX 8:30 AM ET; Barron's had 4.878% earlier"
+    },
+    {
+      "label": "Dollar index",
+      "value": "101.61",
+      "delta": "+0.10 / +0.10%",
+      "dir": "up",
+      "note": "Yahoo 8:35 AM ET; near late-Sept lows"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$89.51 / $96.99",
+      "delta": "+1.6% / +2.5%",
+      "dir": "up",
+      "note": "Bounce after Wednesday's ~8% drop (prior settles 88.12 / 94.62)"
+    },
+    {
+      "label": "Jobless claims",
+      "value": "189K",
+      "delta": "est. 196K",
+      "dir": "down",
+      "note": "Prior revised 195K. Econoday's consensus was 212K (see notes)"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~82%",
+      "delta": "up from ~77–79% Wed",
+      "dir": "up",
+      "note": "CME FedWatch via FXStreet"
+    },
+    {
+      "label": "VIX",
+      "value": "16.80",
+      "delta": "+0.19 / +1.1%",
+      "dir": "flat",
+      "note": "Yahoo 8:30 AM ET vs Wed 16.61 (biggest drop since Apr 2025 on Wed)"
+    },
+    {
+      "label": "Megacaps pre-mkt",
+      "value": "AMZN +2.0% · AAPL +1.2%",
+      "delta": "QCOM −10.7% · AMD −4.8%",
+      "dir": "flat",
+      "note": "Yahoo 8:45 AM ET vs Wed close: GOOGL +1.2%, META +0.9%, MSFT +0.5%, NVDA −1.4%, TSLA −2.1%, AVGO −2.5%"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ Wed settle",
+      "value": "28,566.75",
+      "role": "resistance",
+      "note": "Gap-fill target if LONG triggers (≈ NDX 28,437, Wed close)"
+    },
+    {
+      "label": "NQ flip-to-long",
+      "value": "28,450",
+      "role": "long",
+      "note": "Reclaim and hold → LONG"
+    },
+    {
+      "label": "NQ overnight midpoint",
+      "value": "~28,418",
+      "role": "pivot",
+      "note": "≈ NDX 28,290, right at Wed's NDX low 28,276. Below = SHORT"
+    },
+    {
+      "label": "NQ last",
+      "value": "28,317.25",
+      "role": "short",
+      "note": "8:35 AM ET; implied NDX open ~28,190 (estimate)"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "28,167.75",
+      "role": "short",
+      "note": "Break → stronger SHORT (≈ NDX 28,038)"
+    },
+    {
+      "label": "NQ Tue low",
+      "value": "28,038.25",
+      "role": "support",
+      "note": "Next target below the overnight low"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.90%",
+      "role": "pivot",
+      "note": "Back toward 5% after hawkish Fed talk = more pressure on tech"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "Tech gave back Wednesday's bounce overnight.",
+          "text": "NQ is −0.87% at 28,317.25, in the lower half of its 28,167.75–28,668.50 overnight range [1]. The implied ~28,190 cash open is below Wednesday's NDX low. That's an estimate, not a quote."
+        },
+        {
+          "label": "Semis are the problem.",
+          "text": "Qualcomm −10.7% on its Q4 handset-chip miss, AMD −4.8%, AVGO −2.5%, NVDA −1.4%, Marvell and Intel lower, and data-center names are down on fears of state-level pauses after the Democratic sweep [2,4]."
+        },
+        {
+          "label": "The rotation keeps going.",
+          "text": "Dow futures +0.6% and S&P +0.2% vs Nasdaq −0.5% to −0.9% depending on the time [2,3]."
+        },
+        {
+          "label": "The Fed keeps getting more hawkish.",
+          "text": "Claims at 189K vs 196K expected, after ADP's 86K beat, and December hike odds near 82% [5,6]. Hammack and Barkin speak just before the open."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "AMZN, AAPL, GOOGL and META are all up 1–2% premarket, with UBS arguing a slower AI buildout helps the platforms and that semis are near multi-year-low valuations [2,4]. VIX is near 16.8 after its biggest one-day drop since April 2025, and the 10-year is under 4.90–4.91% [3,7]. A dip toward the overnight low could get bought."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Chips are leading lower for a second day, oil is bouncing, and the labor data keeps pushing hike odds up ahead of Friday's payrolls. A hawkish Hammack or Barkin could add to it."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ reclaims and holds 28,450 (above the overnight midpoint, ≈ NDX 28,290) in the first 30 minutes. Target Wednesday's settle 28,566.75."
+        },
+        {
+          "label": "Stronger SHORT:",
+          "text": "NQ breaks the overnight low 28,167.75 (≈ NDX 28,038). Next target Tuesday's NQ low 28,038.25."
+        },
+        {
+          "label": "Go STAND ASIDE:",
+          "text": "NQ chops between 28,167.75 and 28,450 with megacaps and semis cancelling each other out."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "Hammack (8:50) and Barkin (9:10 AM ET), Iran-war and oil headlines, more AI and data-center policy headlines, Airbnb, Cloudflare and Atlassian after the close, and payrolls Friday [8]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NQ=F (Dec 26): 28,317.25 at 8:35 AM ET; Nov 5 session H 28,668.50 / L 28,167.75; Nov 4 settle 28,566.75; Nov 3 L 28,038.25. ^NDX Wed Nov 4 O 28,346.81 / H 28,829.66 / L 28,276.22 / C 28,437.17.",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 2,
+      "text": "Reuters via Investing.com, \"Nasdaq futures slip on chip weakness; S&P 500 holds gains\" (Nov 5, 7:42 AM): Qualcomm −9.6% on Q4 smartphone-chip miss; NVDA, Marvell, Intel lower; UBS on data-center pauses (~30% of 2028 additions at risk); AMZN, META, GOOGL up >1%; at 7:04 AM Dow +0.62%, S&P +0.2%, Nasdaq −0.51%.",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-on-chip-weakness-5003237",
+      "link_label": "investing.com (Reuters)"
+    },
+    {
+      "id": 3,
+      "text": "Yahoo Finance live (7:53 AM ET): Dow futures +0.5%, S&P +0.1%, Nasdaq −0.7%; oil steadies on Iran-deal hopes. Barron's live (6:52 AM ET): VIX biggest drop since April 2025 to 16.61; 10-year 4.878%; DXY 101.54.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-falls-090519607.html",
+      "link_label": "Yahoo Finance (live)"
+    },
+    {
+      "id": 4,
+      "text": "Yahoo Finance premarket quotes, 8:45 AM ET vs Wed close: QCOM 154.73 (173.19), AMD 465.31 (488.78), AVGO 317.50 (325.48), NVDA 197.25 (200.13), TSLA 377.00 (385.19), AMZN 271.21 (266.03), AAPL 353.80 (349.51), GOOGL 292.30 (288.93), META 635.70 (630.00), MSFT 558.41 (555.80).",
+      "url": "https://finance.yahoo.com/quote/QCOM/",
+      "link_label": "finance.yahoo.com/quote/QCOM"
+    },
+    {
+      "id": 5,
+      "text": "FX Blue calendar and Helious: initial jobless claims 189K vs 196K forecast, prior revised to 195K (Nov 5, 8:30 AM ET). Econoday via CME listed a 212K consensus.",
+      "url": "https://helious.io/data/jobless-claims",
+      "link_label": "helious.io (claims)"
+    },
+    {
+      "id": 6,
+      "text": "FXStreet, \"Dow Jones futures gains as traders eyeball US jobs data\" (Nov 5): CME FedWatch ~82% probability of a December hike; ISM services 54.5, slightly below estimates.",
+      "url": "https://www.fxstreet.com/news/dow-jones-futures-gains-as-traders-eyeball-us-jobs-data-corporate-earnings-202611050900",
+      "link_label": "fxstreet.com"
+    },
+    {
+      "id": 7,
+      "text": "Yahoo Finance quotes ~8:30–8:35 AM ET: ^TNX 4.904 (prev 4.894); DX-Y.NYB 101.607 (prev 101.51); CL=F 89.51 (prev 88.12); BZ=F 96.99 (prev 94.62); ^VIX 16.80 (prev 16.61); YM=F 53,845 (prev 53,503); RTY=F 2,871.9 (prev 2,865.9); ES=F 7,727 (prev 7,720.5).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "finance.yahoo.com/quote/^TNX"
+    },
+    {
+      "id": 8,
+      "text": "FXBus and MarketCatalyst calendars: Hammack 8:50 AM ET, Barkin 9:10 AM ET, Logan 7:00 PM ET; Airbnb, Cloudflare, Atlassian, Lumentum after the close; October payrolls Friday 8:30 AM ET.",
+      "url": "https://www.fxbus.com/en/news/20261105204119382313.html",
+      "link_label": "fxbus.com (calendar)"
+    }
+  ],
+  "data_notes": "NQ and stock quotes are from Yahoo and may be delayed ~10 min. Yahoo's NQ 'previous close' field showed 28,127.50, which doesn't match its own Nov 4 daily bar (28,566.75); I used the daily bar as Wednesday's settle, so the % change is −0.87% here vs −0.5% to −0.7% in earlier news reports. The implied NDX open uses Wednesday's ~130-pt premium (NQ settle 28,566.75 vs NDX close 28,437.17) and is an estimate; NDX-equivalent levels use the same basis. Jobless claims consensus differs by source (196K FX Blue/Helious vs 212K Econoday); it's a beat either way. Productivity and unit labor costs (8:30 AM) actuals weren't found. Fed odds are CME FedWatch as reported by FXStreet; the CME page itself wasn't read."
+}

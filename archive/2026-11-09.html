@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NQ Signal">
+<meta name="application-name" content="NQ Signal">
+<meta name="theme-color" content="#16a34a">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png">
+<link rel="manifest" href="../manifest.json">
+<title>NQ LONG · Monday, Nov 9, 2026</title>
+<style>
+:root{--long:#16a34a;--long-bg:#ecfdf3;--short:#dc2626;--short-bg:#fef2f2;--aside:#d97706;--aside-bg:#fffbeb;
+--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--bg:#f1f5f9}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;-webkit-text-size-adjust:100%}
+.wrap{max-width:480px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 14px) 14px calc(env(safe-area-inset-bottom) + 36px)}
+.app{display:flex;align-items:center;justify-content:space-between;margin:2px 4px 12px}
+.brand{font-weight:800;letter-spacing:-.02em;font-size:17px}.brand span{color:var(--muted);font-weight:600}
+.ticker{font-size:12px;font-weight:700;background:#0f172a;color:#fff;padding:4px 9px;border-radius:999px}
+.banner{border-radius:24px;padding:20px 18px 16px;color:#fff;margin-bottom:14px;box-shadow:0 10px 28px rgba(15,23,42,.18)}
+.banner.long{background:linear-gradient(150deg,#22c55e,#15803d)}
+.banner.short{background:linear-gradient(150deg,#ef4444,#b91c1c)}
+.banner.aside{background:linear-gradient(150deg,#f59e0b,#b45309)}
+.b-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;opacity:.92}
+.b-sig{font-size:52px;font-weight:900;letter-spacing:-.04em;line-height:1;margin:14px 0 6px}
+.b-sub{font-size:15px;font-weight:600;opacity:.95}
+.b-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.2);border-radius:999px;padding:5px 10px;font-size:12.5px;font-weight:700}
+.bars{display:inline-flex;gap:2px;align-items:flex-end}.bars i{display:block;width:4px;border-radius:2px;background:#fff;opacity:.35}
+.bars i:nth-child(1){height:6px}.bars i:nth-child(2){height:9px}.bars i:nth-child(3){height:12px}.bars i.on{opacity:1}
+.flip{margin-top:14px;background:rgba(255,255,255,.14);border-radius:16px;padding:10px 12px;font-size:13px}
+.flip div{margin:3px 0}.flip b{display:inline-block;min-width:52px}
+.stale{display:none;background:#0f172a;color:#fde68a;border-radius:14px;padding:10px 12px;font-size:13px;font-weight:600;margin-bottom:12px}
+.card{background:#fff;border-radius:22px;box-shadow:0 1px 2px rgba(15,23,42,.05),0 8px 24px rgba(15,23,42,.06);padding:18px;margin-bottom:14px;border:1px solid #eef2f7}
+.eyebrow{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.title{font-size:20px;font-weight:800;letter-spacing:-.02em;margin:4px 0 2px}.sub{font-size:13px;color:var(--muted)}
+.headline{font-size:16px;font-weight:750;margin:12px 0 0}
+.thesis{font-size:15px;margin:10px 0 14px;color:#1e293b}
+.cutoff{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}.cutoff b{color:var(--ink)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.stat{background:#f8fafc;border:1px solid #eef2f7;border-radius:14px;padding:10px 11px}
+.stat .k{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.stat .v{font-size:16px;font-weight:800;margin-top:2px}.stat .d{font-size:11.5px;color:var(--muted)}
+.up{color:var(--long)}.down{color:var(--short)}
+.levels h3,.src h3,.arch h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+.lv{display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.lv:first-of-type{border-top:0}
+.lv .tag{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;border-radius:6px;padding:3px 6px;min-width:84px;text-align:center;background:#f1f5f9;color:var(--muted)}
+.lv .tag.long{background:var(--long-bg);color:var(--long)}.lv .tag.short{background:var(--short-bg);color:var(--short)}
+.lv .tag.pivot{background:var(--aside-bg);color:var(--aside)}
+.lv .lbl{flex:1;font-size:13.5px}.lv .lbl small{display:block;color:var(--muted);font-size:12px}
+.lv .val{font-weight:800;font-variant-numeric:tabular-nums;font-size:14.5px;white-space:nowrap}
+details{background:#fff;border:1px solid #eef2f7;border-radius:18px;margin-bottom:10px;box-shadow:0 1px 2px rgba(15,23,42,.04)}
+summary{list-style:none;cursor:pointer;padding:15px 16px;display:flex;align-items:center;gap:12px;font-weight:750;font-size:15.5px}
+summary::-webkit-details-marker{display:none}
+.num{font-size:12px;font-weight:800;color:var(--muted);background:#f1f5f9;border-radius:8px;padding:4px 7px}
+.chev{margin-left:auto;transition:transform .2s;color:var(--muted)}details[open] .chev{transform:rotate(180deg)}
+.body{padding:0 16px 15px;font-size:14.5px;color:#334155}.body ul{margin:0;padding-left:18px}.body li{margin:0 0 7px}
+sup a{color:#2563eb;text-decoration:none;font-weight:700;font-size:10.5px}
+.src ol{margin:0;padding-left:20px;font-size:12.5px;color:#475569}.src li{margin-bottom:6px;word-break:break-word}
+.src a,.arch a{color:#2563eb;text-decoration:none}
+.gaps{font-size:12.5px;color:#475569;margin-top:10px;background:#f8fafc;border-radius:12px;padding:10px 12px;border:1px dashed #cbd5e1}
+.arch ul{list-style:none;margin:0;padding:0;font-size:14px}.arch li{display:flex;justify-content:space-between;padding:7px 0;border-top:1px solid var(--line)}
+.arch li:first-child{border-top:0}.arch .s{font-size:11px;font-weight:800;letter-spacing:.05em}
+.s.long{color:var(--long)}.s.short{color:var(--short)}.s.aside{color:var(--aside)}
+.back{display:inline-block;margin:0 4px 12px;font-size:14px;font-weight:700;color:#2563eb;text-decoration:none}
+.disc{font-size:11.5px;color:var(--muted);text-align:center;margin-top:14px;padding:0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">‹ Today's brief</a>
+  <div class="app"><div class="brand">SignalBrief <span>· NQ</span></div><div class="ticker">NQ · Nasdaq-100 E-mini</div></div>
+  <div id="stale" class="stale"></div>
+  <div class="banner long">
+    <div class="b-top"><span>Signal · 9:30 AM ET open</span><span>Mon Nov 9</span></div>
+    <div class="b-sig">LONG</div>
+    <div class="b-sub">Mildly bullish bias · Bullish bias for the NY open</div>
+    <div class="b-meta">
+      <span class="chip"><span class="bars"><i class="on"></i><i class=""></i><i class=""></i></span>Low conviction</span>
+      <span class="chip">As of Mon Nov 9, 2026, 8:52 AM EST</span>
+    </div>
+    <div class="flip"><div><b>→ LONG</b> LONG stays on while NQ holds above Friday&#x27;s settle 27,085.25 / overnight midpoint ~27,065. Stronger on a reclaim and hold of the overnight high 27,378 (≈ NDX ~27,283, near Friday&#x27;s NDX high 27,316). Target 27,500–27,600.</div><div><b>→ SHORT</b> Flip SHORT if NQ loses 27,065 (overnight midpoint, just under Friday&#x27;s settle) and can&#x27;t reclaim it; next targets ~26,900 then the overnight low 26,751.25.</div></div>
+  </div>
+
+  <div class="card">
+    <div class="eyebrow">New York AM Macro Outlook</div>
+    <div class="title">Monday, Nov 9, 2026</div>
+    <div class="sub">Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · Bowman 8:40, Goolsbee 10:00, Barkin 12:15 PM ET · Wholesale inventories 10:00 AM ET · CPI tomorrow 8:30 AM ET</div>
+    <div class="headline">Oil −4%, yields and the dollar lower, VIX back to 23, and most megacaps bid offset Nvidia&#x27;s −5% on the Huang probe. Lean LONG above Friday&#x27;s settle 27,085; stronger on a hold above the overnight high 27,378. CPI tomorrow caps conviction.</div>
+    <p class="thesis">A low-conviction lean <b>LONG</b> for the open. <b>NQ is +226 pts / +0.83% at 27,311.25 (≈8:41 AM ET)</b>, in the upper part of a 26,751.25–27,378.00 overnight range, after Friday&#x27;s NDX bounce to 26,989.99<sup><a href="#s1">1</a></sup>. The macro tape is supportive: <b>WTI is −3.9% at $87.28</b> on Iran/Hormuz diplomacy, the <b>10-year is −1.6 bp at 4.84%</b>, the <b>dollar is −0.4% at 101.85</b>, and <b>VIX has eased to 23.1</b><sup><a href="#s1">1</a>,<a href="#s4">4</a></sup>. Megacaps outside Nvidia are bid premarket (<b>AMD +4.0%, AMZN +3.3%, AVGO +3.1%, META +3.0%, GOOGL +2.5%, MSFT +2.2%</b>), while <b>NVDA is −5.2%</b> on the board&#x27;s probe of CEO Jensen Huang<sup><a href="#s2">2</a>,<a href="#s3">3</a>,<a href="#s4">4</a></sup>. The case for keeping it small: Dow futures (+1.2%) are leading Nasdaq, December hike odds are still ~78–81%<sup><a href="#s6">6</a>,<a href="#s7">7</a></sup>, and <b>October CPI lands tomorrow at 8:30 AM ET</b><sup><a href="#s5">5</a></sup>. So <b>lean long above Friday&#x27;s settle 27,085; flip short below ~27,065</b>.</p>
+    <div class="cutoff"><b>Evidence cutoff:</b> Mon Nov 9, 2026, ~8:52 AM ET (9:52 AM Atlantic). Futures ~8:41 AM ET and premarket stock prints ~8:51 AM ET (Yahoo, may be delayed).</div>
+    <div class="stats"><div class="stat"><div class="k">NQ futures (pre-mkt)</div><div class="v">27,311.25</div><div class="d"><span class="up">+226.00 / +0.83%</span> · Yahoo ~8:41 AM ET vs Fri settle 27,085.25</div></div><div class="stat"><div class="k">NQ overnight range</div><div class="v">26,751.25 – 27,378.00</div><div class="d"><span class="flat">mid ~27,065</span> · Yahoo Nov 9 session; last in upper part, ~67 pts under the high</div></div><div class="stat"><div class="k">NDX close (Fri)</div><div class="v">26,989.99</div><div class="d"><span class="up">H 27,316.09 / L 26,887.69</span> · +360.18 / +1.35% vs Thu 26,629.81</div></div><div class="stat"><div class="k">Data this morning</div><div class="v">None before open</div><div class="d"><span class="flat">CPI tomorrow 8:30</span> · Wholesale inventories 10:00 AM ET; Bowman 8:40, Goolsbee 10:00, Barkin 12:15 PM ET</div></div><div class="stat"><div class="k">US 10-yr yield</div><div class="v">4.84%</div><div class="d"><span class="down">−1.6 bp vs 4.859</span> · Yahoo ^TNX ~8:37 AM ET</div></div><div class="stat"><div class="k">Dollar index</div><div class="v">101.85</div><div class="d"><span class="down">−0.45 / −0.44%</span> · Yahoo DX-Y.NYB ~8:41 AM ET vs Fri 102.30</div></div><div class="stat"><div class="k">WTI / Brent</div><div class="v">$87.28 / $94.21</div><div class="d"><span class="down">−3.9% / −4.2%</span> · Yahoo vs Fri settles 90.83 / 98.32; Iran talks / Hormuz</div></div><div class="stat"><div class="k">Fed odds</div><div class="v">Dec hike ~78–81%</div><div class="d"><span class="up">after hot NFP</span> · CME FedWatch via Yardeni (78%) and Kiplinger (81%)</div></div><div class="stat"><div class="k">VIX</div><div class="v">23.08</div><div class="d"><span class="down">−2.56 / −10.0%</span> · Yahoo ~8:36 AM ET vs Fri close 25.64</div></div><div class="stat"><div class="k">Megacaps pre-mkt</div><div class="v">AMD +4.0% · AMZN +3.3%</div><div class="d"><span class="up">NVDA −5.2%</span> · Yahoo ~8:51 AM ET vs Fri close: AVGO +3.1%, META +3.0%, GOOGL +2.5%, MSFT +2.2%, TSLA +0.6%, AAPL +0.5%</div></div></div>
+  </div>
+
+  <div class="card levels"><h3>Key levels</h3><div class="lv"><span class="tag long">long</span><span class="lbl">NQ overnight high<small>Reclaim and hold → stronger LONG (≈ NDX ~27,283)</small></span><span class="val">27,378.00</span></div><div class="lv"><span class="tag long">long</span><span class="lbl">NQ last<small>~8:41 AM ET; implied NDX open ~27,216 (estimate, ~95-pt premium)</small></span><span class="val">27,311.25</span></div><div class="lv"><span class="tag pivot">pivot</span><span class="lbl">NQ Fri settle<small>Gap-fill line; longs want it held</small></span><span class="val">27,085.25</span></div><div class="lv"><span class="tag short">short</span><span class="lbl">NQ overnight midpoint<small>Loss and no reclaim → flip SHORT</small></span><span class="val">~27,065</span></div><div class="lv"><span class="tag support">support</span><span class="lbl">NQ overnight low<small>Extension target if the bounce fails</small></span><span class="val">26,751.25</span></div><div class="lv"><span class="tag pivot">pivot</span><span class="lbl">US 10-yr yield<small>Back above 4.90% = headwind into CPI</small></span><span class="val">4.84%</span></div><div class="lv"><span class="tag pivot">pivot</span><span class="lbl">VIX<small>Back over 25 = risk-off returning</small></span><span class="val">23.08</span></div></div>
+  <details open><summary><span class="num">01</span>Why this window<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body"><ul><li><b>Cross-asset is risk-on.</b> Oil −4% on Iran/Hormuz diplomacy, 10-year −1.6 bp, dollar −0.4%, VIX −10%<sup><a href="#s1">1</a>,<a href="#s4">4</a></sup>. Lower energy also helps the inflation story a day before CPI.</li><li><b>Breadth beyond Nvidia.</b> AMD +4% (Oppenheimer upgrade), AMZN, AVGO, META, GOOGL and MSFT all up ~2–3% premarket vs Friday&#x27;s close<sup><a href="#s3">3</a>,<a href="#s4">4</a></sup>. Nvidia (−5%) is the one big drag<sup><a href="#s2">2</a>,<a href="#s3">3</a></sup>.</li><li><b>NQ is holding the upper half.</b> At 27,311 it sits above Friday&#x27;s settle and the overnight midpoint, ~67 pts under the overnight high 27,378<sup><a href="#s1">1</a></sup>.</li><li><b>Light morning calendar.</b> No major data before the open; Bowman 8:40, Goolsbee 10:00, Barkin 12:15 PM ET<sup><a href="#s5">5</a>,<a href="#s7">7</a></sup>.</li></ul></div></details><details open><summary><span class="num">02</span>Opposing case<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body"><ul><li><b>Bear case:</b> Nasdaq is lagging the Dow, investors are &quot;selective,&quot; and Capital Economics says the AI correction could run further<sup><a href="#s2">2</a></sup>. Nvidia leadership uncertainty is unresolved, December hike odds are ~78–81%, and CPI tomorrow invites de-risking into the close<sup><a href="#s2">2</a>,<a href="#s6">6</a>,<a href="#s7">7</a></sup>.</li><li><b>Bull case:</b> Bargain hunting after the post-midterm AI rout, falling oil and yields, and broad megacap strength can carry the cash open through the overnight high<sup><a href="#s2">2</a>,<a href="#s4">4</a></sup>.</li></ul></div></details><details open><summary><span class="num">03</span>What would change it<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body"><ul><li><b>Stronger LONG:</b> NQ reclaims and holds 27,378 in the first 30 minutes. Target 27,500–27,600.</li><li><b>Flip to SHORT:</b> NQ loses ~27,065 (overnight midpoint, just under Friday&#x27;s settle 27,085) and can&#x27;t reclaim it. Targets ~26,900, then 26,751.</li><li><b>Go STAND ASIDE:</b> NQ chops between 27,085 and 27,378 with NVDA dragging and VIX stuck near 23.</li><li><b>Wildcards:</b> New Nvidia/Huang headlines; hawkish Goolsbee (10:00) or Barkin (12:15); Iran/Hormuz headlines reversing oil; KKR and Constellation Energy earnings<sup><a href="#s2">2</a>,<a href="#s5">5</a></sup>.</li></ul></div></details>
+
+  <div class="card src"><h3>Sources</h3><ol><li id="s1">Yahoo Finance quotes (~8:36–8:41 AM ET): NQ=F 27,311.25, Nov 9 session O 26,878.50 / H 27,378.00 / L 26,751.25, Fri settle 27,085.25; ^NDX Fri O 27,045.26 / H 27,316.09 / L 26,887.69 / C 26,989.99; ^TNX 4.843 (prev 4.859); DX-Y.NYB 101.85 (prev 102.30); CL=F 87.28 (prev 90.83); BZ=F 94.21 (prev 98.32); ^VIX 23.08 (prev 25.64); ES=F 7,464 (prev 7,402); YM=F 51,998 (prev 51,385). <a href="https://finance.yahoo.com/quote/NQ%3DF/" target="_blank" rel="noopener">finance.yahoo.com/quote/NQ=F</a></li><li id="s2">Investing.com (Reuters), &quot;Wall St futures rise after rough week, but Nvidia unsettles investors&quot; (Nov 9, 5:35 AM ET): NVDA −4.5% premarket on Huang probe; Dow E-minis +0.73%, NQ +0.21% at 5:10 AM; Aslam: investors &quot;selective&quot;; Capital Economics: AI correction could run further; KKR and Constellation Energy report today. <a href="https://www.investing.com/news/stock-market-news/wall-st-futures-rise-after-rough-week-but-nvidia-unsettles-investors-5011103" target="_blank" rel="noopener">investing.com (Reuters)</a></li><li id="s3">Yahoo Finance live (updated 7:57 AM ET): YM +0.9%, ES +0.5%, NQ +0.6%; NVDA −6% premarket after board opened an investigation into CEO Jensen Huang. Premarket prints ~8:51 AM ET (Yahoo 1m): NVDA 176.92, AMD 467.00, MU 700.09, TSLA 360.41, META 628.74, AVGO 302.71, GOOGL 291.76, AMZN 267.93, MSFT 542.31, AAPL 344.06. <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html" target="_blank" rel="noopener">Yahoo Finance (live)</a></li><li id="s4">Barchart, &quot;U.S. Stock Futures Gain as Oil Drop Offsets Nvidia Slump; Inflation Data Awaited&quot; (Nov 9): WTI −3% on Middle East diplomacy (Trump: more strikes on Iran &quot;highly unlikely&quot;); NVDA −6% premarket; AMZN +3%, META +2%; AMD +3% on Oppenheimer upgrade to Outperform ($600 PT). <a href="https://www.barchart.com/story/news/8731370/u-s-stock-futures-gain-as-oil-drop-offsets-nvidia-slump-on-huang-probe-inflation-data-awaited" target="_blank" rel="noopener">barchart.com</a></li><li id="s5">Schwab Network, Week Ahead (Nov 9–13): Mon Goolsbee 10:00 AM, wholesale inventories 10:00 AM, Barkin 12:15 PM ET; CPI Tue Nov 10 8:30 AM ET; PPI Fri. <a href="https://schwabnetwork.com/articles/week-ahead-inflation-data-neocloud-and-space-earnings" target="_blank" rel="noopener">schwabnetwork.com (calendar)</a></li><li id="s6">Yardeni QuickTakes, Economic Week Ahead Nov 9–13: Friday&#x27;s jobs report lifted December hike odds to 78%; ten Fed speakers this week; Cleveland Fed nowcast Oct CPI +0.24% m/m headline, +0.21% core. <a href="https://www.yardeniquicktakes.com/economic-week-ahead-november-9-13/" target="_blank" rel="noopener">yardeniquicktakes.com</a></li><li id="s7">Kiplinger, economic calendar Nov 9–13: Bowman 8:40 AM ET Monday; CME FedWatch 81% odds of a December quarter-point hike; Veterans Day Wednesday is a bond-market holiday only. <a href="https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar" target="_blank" rel="noopener">kiplinger.com (calendar)</a></li></ol><div class="gaps"><b>Data notes / gaps:</b> Quotes are from Yahoo and may be delayed. Premarket megacap % moves are ~8:51 AM ET Yahoo 1-minute prints vs Friday&#x27;s regular-session close. NDX implied open uses Friday&#x27;s ~95-pt NQ premium (27,085.25 vs 26,989.99) and is an estimate. FedWatch odds vary by source and time (78–81%). Bowman&#x27;s 8:40 AM ET remarks were not captured at evidence cutoff.</div></div>
+  <div class="card arch"><h3>Archive</h3><ul><li><a href="../archive/2026-11-11.html">Wednesday, Nov 11, 2026</a><span class="s aside">STAND ASIDE</span></li><li><a href="../archive/2026-11-10.html">Tuesday, Nov 10, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-11-09.html">Monday, Nov 9, 2026</a><span class="s long">LONG</span></li><li><a href="../archive/2026-11-06.html">Friday, Nov 6, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-11-05.html">Thursday, Nov 5, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-11-04.html">Wednesday, Nov 4, 2026</a><span class="s aside">STAND ASIDE</span></li><li><a href="../archive/2026-11-03.html">Tuesday, Nov 3, 2026</a><span class="s aside">STAND ASIDE</span></li><li><a href="../archive/2026-11-02.html">Monday, Nov 2, 2026</a><span class="s long">LONG</span></li><li><a href="../archive/2026-10-30.html">Friday, Oct 30, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-10-29.html">Thursday, Oct 29, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-10-28.html">Wednesday, Oct 28, 2026</a><span class="s long">LONG</span></li><li><a href="../archive/2026-10-27.html">Tuesday, Oct 27, 2026</a><span class="s long">LONG</span></li><li><a href="../archive/2026-10-26.html">Monday, Oct 26, 2026</a><span class="s aside">STAND ASIDE</span></li><li><a href="../archive/2026-10-23.html">Friday, Oct 23, 2026</a><span class="s aside">STAND ASIDE</span></li><li><a href="../archive/2026-10-22.html">Thursday, Oct 22, 2026</a><span class="s short">SHORT</span></li><li><a href="../archive/2026-10-20.html">Tuesday, Oct 20, 2026</a><span class="s aside">STAND ASIDE</span></li></ul></div>
+  <div class="disc">Not financial advice. For information and education only; futures trading carries substantial risk of loss. Signal is a macro bias for the morning window, not a trade instruction.<br>Built Nov 11, 2026 8:47 AM EST.</div>
+</div>
+</body>
+</html>

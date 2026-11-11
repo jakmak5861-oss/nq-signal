@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-10",
+  "as_of": "2026-11-10T08:51:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "SHORT",
+  "conviction": "medium",
+  "bias": "Bearish",
+  "headline": "Hot October CPI (0.4% headline, 0.3% core vs 0.3%/0.2%) plus Waller floating a 50 bp December hike: NQ −1.4% at the overnight low, 10-year +7 bp to 4.94%. Lean SHORT below 27,700; flip long only on a reclaim of ~27,870.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · CPI out 8:30 AM ET (hot) · Waller spoke before the data · Veterans Day tomorrow is a bond-market holiday",
+  "flip": {
+    "long": "Flip LONG only if NQ reclaims and holds ~27,870 (overnight midpoint, ≈ NDX Monday close 27,908 after the ~107-pt premium). Target the Monday settle 28,014.",
+    "short": "SHORT stays on while NQ is below 27,700. Targets 27,500, then ~27,335 (≈ NDX Monday low 27,228)."
+  },
+  "thesis": "A medium-conviction **SHORT** for the open. **NQ is −385.75 pts / −1.38% at 27,628.75 (≈8:41 AM ET)**, sitting on the overnight low 27,624.50 after a 28,109 high, and giving back part of Monday's +3.4% NDX surge to 27,907.63 [1]. The trigger is **October CPI: headline +0.4% m/m vs 0.3% expected, core +0.3% vs 0.2%** [2,3], landing right after **Gov. Waller said a December hike is likely and opened the door to a 50 bp move** [3]. Rates and the dollar confirm it: **10-year +7 bp to 4.94%**, **dollar index +0.4% to 102.01**, **VIX up to 20.6** [1,2]. Nasdaq is taking the hit (NQ −1.4% vs ES −0.8% and YM −0.2%), and the AI chip names that led Monday are weakest premarket (**AMD −2.5%, AVGO −2.0%, NVDA −1.9%, TSLA −1.8%**) [1]. The offset is **oil −3% (WTI $84.13)** and a Monday rally that may draw dip buyers. So **lean short below 27,700; flip long on a reclaim of ~27,870**.",
+  "evidence_cutoff": "Tue Nov 10, 2026, ~8:51 AM ET (9:51 AM Atlantic). Futures ~8:41 AM ET and premarket stock prints ~8:51 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "27,628.75",
+      "delta": "−385.75 / −1.38%",
+      "dir": "down",
+      "note": "Yahoo ~8:41 AM ET vs Mon settle 28,014.50"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "27,624.50 – 28,109.00",
+      "delta": "mid ~27,867",
+      "dir": "flat",
+      "note": "Yahoo Nov 10 session; last is at the low"
+    },
+    {
+      "label": "NDX close (Mon)",
+      "value": "27,907.63",
+      "delta": "H 28,025.77 / L 27,227.53",
+      "dir": "up",
+      "note": "+917.64 / +3.40% vs Fri 26,989.99"
+    },
+    {
+      "label": "October CPI (8:30)",
+      "value": "+0.4% m/m",
+      "delta": "core +0.3% vs 0.2% est",
+      "dir": "up",
+      "note": "Headline est 0.3%; no y/y figures this month (2025 shutdown gap)"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.94%",
+      "delta": "+7 bp vs 4.864",
+      "dir": "up",
+      "note": "Yahoo ^TNX ~8:36 AM ET"
+    },
+    {
+      "label": "Dollar index",
+      "value": "102.01",
+      "delta": "+0.36 / +0.35%",
+      "dir": "up",
+      "note": "Yahoo DX-Y.NYB ~8:41 AM ET vs 101.65"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$84.13 / $89.23",
+      "delta": "−3.1% / −3.6%",
+      "dir": "down",
+      "note": "Yahoo vs Mon settles 86.85 / 92.57"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~80% pre-CPI",
+      "delta": "Waller: 50 bp possible",
+      "dir": "up",
+      "note": "CME FedWatch via FXStreet before the release; IBD says CPI likely seals a December hike"
+    },
+    {
+      "label": "VIX",
+      "value": "20.56",
+      "delta": "+0.64 / +3.2%",
+      "dir": "up",
+      "note": "Yahoo ~8:36 AM ET vs Mon close 19.92"
+    },
+    {
+      "label": "Megacaps pre-mkt",
+      "value": "AMD −2.5% · AVGO −2.0%",
+      "delta": "NVDA −1.9%",
+      "dir": "down",
+      "note": "Yahoo ~8:51 AM ET vs Mon close: TSLA −1.8%, MSFT −0.4%, AMZN −0.4%, META −0.1%, GOOGL flat, AAPL +0.4%"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ Mon settle",
+      "value": "28,014.50",
+      "role": "resistance",
+      "note": "Full gap-fill; unlikely without a CPI reversal"
+    },
+    {
+      "label": "NQ overnight midpoint",
+      "value": "~27,870",
+      "role": "long",
+      "note": "Reclaim and hold → flip LONG (≈ NDX Mon close)"
+    },
+    {
+      "label": "NQ short line",
+      "value": "27,700",
+      "role": "short",
+      "note": "Stay short while below"
+    },
+    {
+      "label": "NQ last / overnight low",
+      "value": "27,628.75 / 27,624.50",
+      "role": "pivot",
+      "note": "~8:41 AM ET; implied NDX open ~27,522 (estimate, ~107-pt premium)"
+    },
+    {
+      "label": "Downside target 1",
+      "value": "27,500",
+      "role": "support",
+      "note": "Round number"
+    },
+    {
+      "label": "Downside target 2",
+      "value": "~27,335",
+      "role": "support",
+      "note": "≈ NDX Monday low 27,228 plus premium"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.94%",
+      "role": "pivot",
+      "note": "Above 4.95% keeps pressure on; back under 4.90% eases it"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "Inflation surprise on both lines.",
+          "text": "Headline 0.4% and core 0.3%, each 0.1 pt above consensus [2,3]. The report has no annual figures this month, so the market is trading the monthly beat."
+        },
+        {
+          "label": "Fed pushed hawkish just before.",
+          "text": "Waller said a December hike is likely and a 50 bp move is possible; IBD says CPI likely seals the December hike [3,4]."
+        },
+        {
+          "label": "Rates and dollar confirm.",
+          "text": "10-year +7 bp to 4.94%, dollar +0.4%, VIX up [1,2]. Long-duration tech is the most rate-sensitive, and NQ is falling roughly twice as hard as ES while the Dow is near flat [1]."
+        },
+        {
+          "label": "Momentum is at the lows.",
+          "text": "NQ is printing the overnight low after a 485-pt slide from the 28,109 high [1]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "Oil −3% softens the inflation path, Monday's +3.4% NDX rally shows dip buyers are active, and NQ is already stretched ~485 pts off the overnight high into the open, so a flush-and-reverse is possible [1]."
+        },
+        {
+          "label": "Bear case:",
+          "text": "Hot core plus a Fed governor discussing 50 bp reprices the whole hike path; AI chip leaders from Monday (AMD, AVGO, NVDA) are leading the drop [1,3]."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Stronger SHORT:",
+          "text": "NQ stays under 27,700 through the first 15 minutes and the 10-year holds above 4.95%. Targets 27,500, then ~27,335."
+        },
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ reclaims and holds ~27,870 (overnight midpoint). Target the Monday settle 28,014."
+        },
+        {
+          "label": "Go STAND ASIDE:",
+          "text": "NQ chops between 27,624 and 27,870 with yields flat on the day."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "More Fed commentary after CPI; Nvidia/Huang headlines; oil moves on Middle East news; Anthropic IPO pricing chatter [4,5]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance quotes (~8:36–8:51 AM ET): NQ=F 27,628.75, Nov 10 session H 28,109.00 / L 27,624.50, Mon settle 28,014.50; ^NDX Mon O 27,263.43 / H 28,025.77 / L 27,227.53 / C 27,907.63; ^TNX 4.936 (prev 4.864); DX-Y.NYB 102.01 (prev 101.65); CL=F 84.13 (prev 86.85); BZ=F 89.23 (prev 92.57); ^VIX 20.56 (prev 19.92); ES=F 7,517.5 (prev 7,574.25); YM=F 52,414 (prev 52,498). Premarket ~8:51 AM ET vs Mon close: NVDA 175.27 (178.67), AMD 496.09 (508.58), AVGO 313.00 (319.48), TSLA 371.30 (378.05), MSFT 542.83 (545.18), AMZN 265.99 (266.93), META 640.50 (641.37), GOOGL 288.18 (288.15), AAPL 352.11 (350.69).",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 2,
+      "text": "FXStreet, \"US Consumer Price Index rises 0.4% MoM in October vs. 0.3% expected\" (Nov 10, 8:36 AM ET): core 0.3% vs 0.2% est; no 12-month changes due to 2025 shutdown data gap; DXY +0.3% at 102.00; FedWatch ~80% December hike odds pre-release.",
+      "url": "https://www.fxstreet.com/news/us-cpi-data-set-to-ease-in-october-as-markets-reassess-fed-rate-hike-expectations-202611100930",
+      "link_label": "fxstreet.com"
+    },
+    {
+      "id": 3,
+      "text": "CNBC live updates (8:38 AM ET Nov 10): Nasdaq-100 futures −1.2%, S&P −0.5%, Dow flat; Waller says December hike likely and opens door to 50 bp; CPI 0.4% vs 0.3%, core 0.3% vs 0.2%; Monday Dow +2.2%, S&P +2.4%, Nasdaq Comp +2.7%.",
+      "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+      "link_label": "cnbc.com (live)"
+    },
+    {
+      "id": 4,
+      "text": "Investor's Business Daily, \"CPI Inflation Stays Hot, Sealing Fed Rate Hike After Hawkish Waller\" (Nov 10): core overshoot likely ensures a 25 bp December hike and raises odds of more.",
+      "url": "https://www.investors.com/news/cpi-inflation-oct-federal-reserve-waller-sp-500/",
+      "link_label": "investors.com"
+    },
+    {
+      "id": 5,
+      "text": "Yahoo Finance live (8:42 AM ET Nov 10): Nvidia still weighed by the board's investigation into CEO Jensen Huang; oil down >2%. IBD (8:14 AM ET): Anthropic set a price range for its IPO.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+      "link_label": "Yahoo Finance (live)"
+    }
+  ],
+  "data_notes": "Quotes are from Yahoo and may be delayed. Premarket megacap % moves are ~8:51 AM ET Yahoo 1-minute prints vs Monday's regular-session close. NDX implied open uses Monday's ~107-pt NQ premium (28,014.50 vs 27,907.63) and is an estimate. Post-CPI FedWatch odds were not captured; the ~80% figure is pre-release. The rest of today's Fed-speaker calendar and overnight megacap earnings were not checked in this run because of the late start (~8:51 AM ET)."
+}

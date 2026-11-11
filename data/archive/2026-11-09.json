@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-09",
+  "as_of": "2026-11-09T08:52:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "LONG",
+  "conviction": "low",
+  "bias": "Mildly bullish",
+  "headline": "Oil −4%, yields and the dollar lower, VIX back to 23, and most megacaps bid offset Nvidia's −5% on the Huang probe. Lean LONG above Friday's settle 27,085; stronger on a hold above the overnight high 27,378. CPI tomorrow caps conviction.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · Bowman 8:40, Goolsbee 10:00, Barkin 12:15 PM ET · Wholesale inventories 10:00 AM ET · CPI tomorrow 8:30 AM ET",
+  "flip": {
+    "long": "LONG stays on while NQ holds above Friday's settle 27,085.25 / overnight midpoint ~27,065. Stronger on a reclaim and hold of the overnight high 27,378 (≈ NDX ~27,283, near Friday's NDX high 27,316). Target 27,500–27,600.",
+    "short": "Flip SHORT if NQ loses 27,065 (overnight midpoint, just under Friday's settle) and can't reclaim it; next targets ~26,900 then the overnight low 26,751.25."
+  },
+  "thesis": "A low-conviction lean **LONG** for the open. **NQ is +226 pts / +0.83% at 27,311.25 (≈8:41 AM ET)**, in the upper part of a 26,751.25–27,378.00 overnight range, after Friday's NDX bounce to 26,989.99 [1]. The macro tape is supportive: **WTI is −3.9% at $87.28** on Iran/Hormuz diplomacy, the **10-year is −1.6 bp at 4.84%**, the **dollar is −0.4% at 101.85**, and **VIX has eased to 23.1** [1,4]. Megacaps outside Nvidia are bid premarket (**AMD +4.0%, AMZN +3.3%, AVGO +3.1%, META +3.0%, GOOGL +2.5%, MSFT +2.2%**), while **NVDA is −5.2%** on the board's probe of CEO Jensen Huang [2,3,4]. The case for keeping it small: Dow futures (+1.2%) are leading Nasdaq, December hike odds are still ~78–81% [6,7], and **October CPI lands tomorrow at 8:30 AM ET** [5]. So **lean long above Friday's settle 27,085; flip short below ~27,065**.",
+  "evidence_cutoff": "Mon Nov 9, 2026, ~8:52 AM ET (9:52 AM Atlantic). Futures ~8:41 AM ET and premarket stock prints ~8:51 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "27,311.25",
+      "delta": "+226.00 / +0.83%",
+      "dir": "up",
+      "note": "Yahoo ~8:41 AM ET vs Fri settle 27,085.25"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "26,751.25 – 27,378.00",
+      "delta": "mid ~27,065",
+      "dir": "flat",
+      "note": "Yahoo Nov 9 session; last in upper part, ~67 pts under the high"
+    },
+    {
+      "label": "NDX close (Fri)",
+      "value": "26,989.99",
+      "delta": "H 27,316.09 / L 26,887.69",
+      "dir": "up",
+      "note": "+360.18 / +1.35% vs Thu 26,629.81"
+    },
+    {
+      "label": "Data this morning",
+      "value": "None before open",
+      "delta": "CPI tomorrow 8:30",
+      "dir": "flat",
+      "note": "Wholesale inventories 10:00 AM ET; Bowman 8:40, Goolsbee 10:00, Barkin 12:15 PM ET"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.84%",
+      "delta": "−1.6 bp vs 4.859",
+      "dir": "down",
+      "note": "Yahoo ^TNX ~8:37 AM ET"
+    },
+    {
+      "label": "Dollar index",
+      "value": "101.85",
+      "delta": "−0.45 / −0.44%",
+      "dir": "down",
+      "note": "Yahoo DX-Y.NYB ~8:41 AM ET vs Fri 102.30"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$87.28 / $94.21",
+      "delta": "−3.9% / −4.2%",
+      "dir": "down",
+      "note": "Yahoo vs Fri settles 90.83 / 98.32; Iran talks / Hormuz"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~78–81%",
+      "delta": "after hot NFP",
+      "dir": "up",
+      "note": "CME FedWatch via Yardeni (78%) and Kiplinger (81%)"
+    },
+    {
+      "label": "VIX",
+      "value": "23.08",
+      "delta": "−2.56 / −10.0%",
+      "dir": "down",
+      "note": "Yahoo ~8:36 AM ET vs Fri close 25.64"
+    },
+    {
+      "label": "Megacaps pre-mkt",
+      "value": "AMD +4.0% · AMZN +3.3%",
+      "delta": "NVDA −5.2%",
+      "dir": "up",
+      "note": "Yahoo ~8:51 AM ET vs Fri close: AVGO +3.1%, META +3.0%, GOOGL +2.5%, MSFT +2.2%, TSLA +0.6%, AAPL +0.5%"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ overnight high",
+      "value": "27,378.00",
+      "role": "long",
+      "note": "Reclaim and hold → stronger LONG (≈ NDX ~27,283)"
+    },
+    {
+      "label": "NQ last",
+      "value": "27,311.25",
+      "role": "long",
+      "note": "~8:41 AM ET; implied NDX open ~27,216 (estimate, ~95-pt premium)"
+    },
+    {
+      "label": "NQ Fri settle",
+      "value": "27,085.25",
+      "role": "pivot",
+      "note": "Gap-fill line; longs want it held"
+    },
+    {
+      "label": "NQ overnight midpoint",
+      "value": "~27,065",
+      "role": "short",
+      "note": "Loss and no reclaim → flip SHORT"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "26,751.25",
+      "role": "support",
+      "note": "Extension target if the bounce fails"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "4.84%",
+      "role": "pivot",
+      "note": "Back above 4.90% = headwind into CPI"
+    },
+    {
+      "label": "VIX",
+      "value": "23.08",
+      "role": "pivot",
+      "note": "Back over 25 = risk-off returning"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "Cross-asset is risk-on.",
+          "text": "Oil −4% on Iran/Hormuz diplomacy, 10-year −1.6 bp, dollar −0.4%, VIX −10% [1,4]. Lower energy also helps the inflation story a day before CPI."
+        },
+        {
+          "label": "Breadth beyond Nvidia.",
+          "text": "AMD +4% (Oppenheimer upgrade), AMZN, AVGO, META, GOOGL and MSFT all up ~2–3% premarket vs Friday's close [3,4]. Nvidia (−5%) is the one big drag [2,3]."
+        },
+        {
+          "label": "NQ is holding the upper half.",
+          "text": "At 27,311 it sits above Friday's settle and the overnight midpoint, ~67 pts under the overnight high 27,378 [1]."
+        },
+        {
+          "label": "Light morning calendar.",
+          "text": "No major data before the open; Bowman 8:40, Goolsbee 10:00, Barkin 12:15 PM ET [5,7]."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bear case:",
+          "text": "Nasdaq is lagging the Dow, investors are \"selective,\" and Capital Economics says the AI correction could run further [2]. Nvidia leadership uncertainty is unresolved, December hike odds are ~78–81%, and CPI tomorrow invites de-risking into the close [2,6,7]."
+        },
+        {
+          "label": "Bull case:",
+          "text": "Bargain hunting after the post-midterm AI rout, falling oil and yields, and broad megacap strength can carry the cash open through the overnight high [2,4]."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Stronger LONG:",
+          "text": "NQ reclaims and holds 27,378 in the first 30 minutes. Target 27,500–27,600."
+        },
+        {
+          "label": "Flip to SHORT:",
+          "text": "NQ loses ~27,065 (overnight midpoint, just under Friday's settle 27,085) and can't reclaim it. Targets ~26,900, then 26,751."
+        },
+        {
+          "label": "Go STAND ASIDE:",
+          "text": "NQ chops between 27,085 and 27,378 with NVDA dragging and VIX stuck near 23."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "New Nvidia/Huang headlines; hawkish Goolsbee (10:00) or Barkin (12:15); Iran/Hormuz headlines reversing oil; KKR and Constellation Energy earnings [2,5]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance quotes (~8:36–8:41 AM ET): NQ=F 27,311.25, Nov 9 session O 26,878.50 / H 27,378.00 / L 26,751.25, Fri settle 27,085.25; ^NDX Fri O 27,045.26 / H 27,316.09 / L 26,887.69 / C 26,989.99; ^TNX 4.843 (prev 4.859); DX-Y.NYB 101.85 (prev 102.30); CL=F 87.28 (prev 90.83); BZ=F 94.21 (prev 98.32); ^VIX 23.08 (prev 25.64); ES=F 7,464 (prev 7,402); YM=F 51,998 (prev 51,385).",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 2,
+      "text": "Investing.com (Reuters), \"Wall St futures rise after rough week, but Nvidia unsettles investors\" (Nov 9, 5:35 AM ET): NVDA −4.5% premarket on Huang probe; Dow E-minis +0.73%, NQ +0.21% at 5:10 AM; Aslam: investors \"selective\"; Capital Economics: AI correction could run further; KKR and Constellation Energy report today.",
+      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-rise-after-rough-week-but-nvidia-unsettles-investors-5011103",
+      "link_label": "investing.com (Reuters)"
+    },
+    {
+      "id": 3,
+      "text": "Yahoo Finance live (updated 7:57 AM ET): YM +0.9%, ES +0.5%, NQ +0.6%; NVDA −6% premarket after board opened an investigation into CEO Jensen Huang. Premarket prints ~8:51 AM ET (Yahoo 1m): NVDA 176.92, AMD 467.00, MU 700.09, TSLA 360.41, META 628.74, AVGO 302.71, GOOGL 291.76, AMZN 267.93, MSFT 542.31, AAPL 344.06.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+      "link_label": "Yahoo Finance (live)"
+    },
+    {
+      "id": 4,
+      "text": "Barchart, \"U.S. Stock Futures Gain as Oil Drop Offsets Nvidia Slump; Inflation Data Awaited\" (Nov 9): WTI −3% on Middle East diplomacy (Trump: more strikes on Iran \"highly unlikely\"); NVDA −6% premarket; AMZN +3%, META +2%; AMD +3% on Oppenheimer upgrade to Outperform ($600 PT).",
+      "url": "https://www.barchart.com/story/news/8731370/u-s-stock-futures-gain-as-oil-drop-offsets-nvidia-slump-on-huang-probe-inflation-data-awaited",
+      "link_label": "barchart.com"
+    },
+    {
+      "id": 5,
+      "text": "Schwab Network, Week Ahead (Nov 9–13): Mon Goolsbee 10:00 AM, wholesale inventories 10:00 AM, Barkin 12:15 PM ET; CPI Tue Nov 10 8:30 AM ET; PPI Fri.",
+      "url": "https://schwabnetwork.com/articles/week-ahead-inflation-data-neocloud-and-space-earnings",
+      "link_label": "schwabnetwork.com (calendar)"
+    },
+    {
+      "id": 6,
+      "text": "Yardeni QuickTakes, Economic Week Ahead Nov 9–13: Friday's jobs report lifted December hike odds to 78%; ten Fed speakers this week; Cleveland Fed nowcast Oct CPI +0.24% m/m headline, +0.21% core.",
+      "url": "https://www.yardeniquicktakes.com/economic-week-ahead-november-9-13/",
+      "link_label": "yardeniquicktakes.com"
+    },
+    {
+      "id": 7,
+      "text": "Kiplinger, economic calendar Nov 9–13: Bowman 8:40 AM ET Monday; CME FedWatch 81% odds of a December quarter-point hike; Veterans Day Wednesday is a bond-market holiday only.",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+      "link_label": "kiplinger.com (calendar)"
+    }
+  ],
+  "data_notes": "Quotes are from Yahoo and may be delayed. Premarket megacap % moves are ~8:51 AM ET Yahoo 1-minute prints vs Friday's regular-session close. NDX implied open uses Friday's ~95-pt NQ premium (27,085.25 vs 26,989.99) and is an estimate. FedWatch odds vary by source and time (78–81%). Bowman's 8:40 AM ET remarks were not captured at evidence cutoff."
+}

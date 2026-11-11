@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-11",
+  "as_of": "2026-11-11T08:46:00-05:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "STAND_ASIDE",
+  "conviction": "low",
+  "bias": "Neutral",
+  "headline": "NQ +1.9% on a chip/AI rebound (CoreWeave beat, Nvidia bounce) into a fully priced December hike, a ~5% 10-year and a firmer dollar. The gap is priced; no edge at the open. Long above 28,406, short below 28,110.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · Veterans Day: stocks open, bond market closed, no economic data",
+  "flip": {
+    "long": "Go LONG if NQ holds above the overnight high 28,406 through the first 15 minutes. Target 28,500, then 28,600 (round numbers).",
+    "short": "Go SHORT if NQ loses ~28,110 (Tuesday high 28,109 / overnight midpoint ~28,127). Targets the Monday settle 28,014, then the gap fill at ~27,840 (overnight low 27,847.75 / Tuesday settle 27,835.25)."
+  },
+  "thesis": "**STAND ASIDE** at the open, low conviction. **NQ is +527 pts / +1.89% at 28,362.25 (≈8:36 AM ET)**, near the overnight high 28,406.25 and above Tuesday's whole range, so the implied NDX open (~28,268) gaps over Tuesday's cash high 27,990 [1]. The move is micro, not macro: **CoreWeave +17% premarket** on a revenue beat and higher guide, and **Nvidia +3.7%** bouncing after a ~10% two-day drop [2,3]; AMD, AVGO and other chips lead [1,4]. The macro tape points the other way: **December hike now fully priced**, with ~15% odds of 50 bp after Goolsbee called CPI 'borderline disturbing' and Logan wants two more hikes [5], the **10-year closed Tuesday at 4.98%** (bonds are shut today) [1,2], the **dollar is +0.45% to 102.69** and **WTI +1.5% to $87.36** [1]. VIX easing to 18.4 supports the bounce [1]. With a ~1.9% gap already priced into a hawkish rate backdrop and no data or bond trading to steer it, wait: **long only above 28,406, short below ~28,110**.",
+  "evidence_cutoff": "Wed Nov 11, 2026, ~8:46 AM ET (9:46 AM Atlantic). Futures ~8:36 AM ET and premarket stock prints ~8:46 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {"label": "NQ futures (pre-mkt)", "value": "28,362.25", "delta": "+527.00 / +1.89%", "dir": "up", "note": "Yahoo ~8:36 AM ET vs Tue settle 27,835.25"},
+    {"label": "NQ overnight range", "value": "27,847.75 – 28,406.25", "delta": "mid ~28,127", "dir": "flat", "note": "Yahoo Nov 11 session; last is near the high"},
+    {"label": "NDX close (Tue)", "value": "27,740.79", "delta": "H 27,990.34 / L 27,421.18", "dir": "down", "note": "−166.84 / −0.60% vs Mon 27,907.63"},
+    {"label": "Economic data", "value": "None (Veterans Day)", "delta": "MBA apps +6.2% w/w", "dir": "flat", "note": "Bond market and most banks closed; stocks open"},
+    {"label": "US 10-yr yield", "value": "4.98% (Tue close)", "delta": "+12 bp Tue", "dir": "up", "note": "Yahoo ^TNX; cash Treasuries closed today, last tick 4.998"},
+    {"label": "Dollar index", "value": "102.69", "delta": "+0.46 / +0.45%", "dir": "up", "note": "Yahoo DX-Y.NYB ~8:36 AM ET vs 102.23"},
+    {"label": "WTI / Brent", "value": "$87.36 / $92.84", "delta": "+1.5% / +1.5%", "dir": "up", "note": "Yahoo vs Tue settles 86.04 / 91.49"},
+    {"label": "Fed odds", "value": "Dec hike ~100%", "delta": "50 bp ~15%", "dir": "up", "note": "CME FedWatch via CNBC; ~89%/11% (25/50 bp) per Investing.com Tue night"},
+    {"label": "VIX", "value": "18.40", "delta": "−1.06 / −5.4%", "dir": "down", "note": "Yahoo ~8:31 AM ET vs Tue close 19.46"},
+    {"label": "Megacaps pre-mkt", "value": "AMD +5.0% · AVGO +3.9%", "delta": "NVDA +3.7%", "dir": "up", "note": "Yahoo ~8:46 AM ET vs Tue close: TSLA +1.5%, META +1.1%, GOOGL +1.1%, MSFT +0.6%, AMZN +0.6%, AAPL −0.4%"}
+  ],
+  "key_levels": [
+    {"label": "Upside targets", "value": "28,500 / 28,600", "role": "resistance", "note": "Round numbers"},
+    {"label": "NQ overnight high", "value": "28,406.25", "role": "long", "note": "Hold above through first 15 min → LONG"},
+    {"label": "NQ last", "value": "28,362.25", "role": "pivot", "note": "~8:36 AM ET; implied NDX open ~28,268 (estimate, ~94-pt premium)"},
+    {"label": "NQ Tue high / overnight mid", "value": "28,109 / ~28,127", "role": "short", "note": "Lose it → SHORT"},
+    {"label": "NQ Mon settle", "value": "28,014.50", "role": "support", "note": "Short target 1"},
+    {"label": "Gap fill", "value": "27,835–27,848", "role": "support", "note": "Tue settle 27,835.25 / overnight low 27,847.75"},
+    {"label": "US 10-yr yield", "value": "4.98%", "role": "pivot", "note": "Closed today; 5% is the line when bonds reopen Thursday"}
+  ],
+  "sections": [
+    {"title": "Why this window", "bullets": [
+      {"label": "Gap is already priced.", "text": "NQ is +1.9% and sits near its overnight high, with the implied NDX open above Tuesday's entire cash range [1]. Chasing a gap this size into the open carries poor risk/reward."},
+      {"label": "Micro vs macro conflict.", "text": "AI/chip news is bullish (CoreWeave beat and raised guidance; Nvidia bouncing; AMD, AVGO up 4–5%) [1,2,3], but rates are hawkish: December hike fully priced, 50 bp ~15%, Goolsbee and Logan hawkish [5]."},
+      {"label": "No macro catalyst.", "text": "Veterans Day: bond market closed, no economic data; the only release was MBA mortgage applications [2,4]. Price will be driven by flows and single-stock news."}
+    ]},
+    {"title": "Opposing case", "bullets": [
+      {"label": "Bull case:", "text": "VIX down 5%, Nasdaq outperforming ES (+1.9% vs +0.9%), chips leading and Nvidia recovering; a clean break of 28,406 could run as shorts cover after Tuesday's CPI selloff [1,3]."},
+      {"label": "Bear case:", "text": "10-year near 5%, dollar at a two-week high and oil up; a fully priced hike plus talk of 50 bp argues against paying up for long-duration tech, so the gap may fade back toward 28,014 or the 27,840 fill [1,5]. Baird downgraded Nvidia to Neutral [4]."}
+    ]},
+    {"title": "What would change it", "bullets": [
+      {"label": "Flip to LONG:", "text": "NQ holds above 28,406 through the first 15 minutes with chips still leading. Targets 28,500, then 28,600."},
+      {"label": "Flip to SHORT:", "text": "NQ loses ~28,110 (Tuesday high / overnight midpoint). Targets 28,014, then ~27,840 gap fill."},
+      {"label": "Stay aside:", "text": "NQ chops between 28,110 and 28,406."},
+      {"label": "Wildcards:", "text": "More Fed commentary; Nvidia/Huang headlines; Anthropic IPO news; oil on geopolitics. Earnings after the close: CAE, CTVA; Thursday after-close AMAT and CSCO [2,4]."}
+    ]}
+  ],
+  "sources": [
+    {"id": 1, "text": "Yahoo Finance quotes (~8:31–8:46 AM ET): NQ=F 28,362.25, Nov 11 session H 28,406.25 / L 27,847.75, Tue settle 27,835.25, Mon settle 28,014.50, Tue H 28,109.00; ^NDX Tue O 27,649.63 / H 27,990.34 / L 27,421.18 / C 27,740.79; ^TNX 4.998 (Tue close 4.983, Mon 4.864); DX-Y.NYB 102.69 (prev 102.23); CL=F 87.36 (prev 86.04); BZ=F 92.84 (prev 91.49); ^VIX 18.40 (prev 19.46); ES=F 7,612.75 (prev 7,544.25). Premarket ~8:46 AM ET vs Tue close: NVDA 175.10 (168.89), AMD 541.03 (515.21), AVGO 345.01 (331.98), MSFT 536.44 (533.16), AAPL 347.15 (348.51), AMZN 272.41 (270.87), META 648.32 (641.39), GOOGL 290.48 (287.38), TSLA 385.44 (379.78).", "url": "https://finance.yahoo.com/quote/NQ%3DF/", "link_label": "finance.yahoo.com/quote/NQ=F"},
+    {"id": 2, "text": "Sharecast, \"US pre-open: Futures higher following CoreWeave earnings, Nvidia bounce\" (Nov 11, 7:32 AM ET): NDX futures +1.95%; CoreWeave +17% on $3.66bn revenue vs $3.55bn est and raised FY guide; Nvidia +3.8%; ~90% December 25 bp hike odds; MBA applications +6.2%; no major earnings today.", "url": "https://www.sharecast.com/news/market-report-us-pre-open/wall-street-nyse-dow-jones-nasdaq-stocks-equities--24126164.html", "link_label": "sharecast.com"},
+    {"id": 3, "text": "Yahoo Finance live (7:34 AM ET Nov 11): NQ +1.9%, ES +0.8%, YM +0.1%; Nvidia rebounding after two days of losses; 10-year briefly above 5% Tuesday; Bowman: 'still work to do'.", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-123445799.html", "link_label": "Yahoo Finance (live)"},
+    {"id": 4, "text": "Schwab Network, \"U.S. Stock Futures Higher on Veteran's Day as Tech Rebounds\" (Nov 11): bond market closed, no economic data; VIX 18.41; Baird downgrades NVDA to Neutral; earnings: CAE, CTVA after close; AMAT, CSCO Thursday after close.", "url": "https://schwabnetwork.com/articles/us-stock-futures-higher-on-veterans-day-as-tech-rebounds", "link_label": "schwabnetwork.com"},
+    {"id": 5, "text": "CNBC, \"Goolsbee calls inflation report 'borderline disturbing'\" (Nov 11): FedWatch now unanimously prices a December hike, ~15% odds of 50 bp; Logan sees two more 25 bp hikes; Waller floated 50 bp. Investing.com (Nov 10, 10:21 PM): 88.8% / 11.2% for 25 / 50 bp.", "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html", "link_label": "cnbc.com"}
+  ],
+  "data_notes": "Quotes are from Yahoo and may be delayed. Cash Treasuries are closed for Veterans Day, so the 10-year shown is Tuesday's close (last tick 4.998). Premarket megacap % moves are Yahoo 1-minute prints vs Tuesday's regular-session close. NDX implied open uses Tuesday's ~94-pt NQ premium (27,835.25 vs 27,740.79) and is an estimate. Upside targets 28,500/28,600 are round numbers, not sourced levels. Fed-speaker calendar for today was not confirmed."
+}

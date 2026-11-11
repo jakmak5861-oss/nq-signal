@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-29",
+  "as_of": "2026-10-29T08:50:00-04:00",
+  "instrument": "NQ · Nasdaq-100 E-mini",
+  "signal": "SHORT",
+  "conviction": "low",
+  "bias": "Bearish",
+  "headline": "NQ is −1.3% after Alphabet's double miss (stock −10% premarket), pointing to a cash open below Wednesday's NDX low. Small short while NQ stays under its overnight high; the gap is big enough to fill, and Amazon/Intel report after the close.",
+  "session_note": "Cash open 9:30 AM ET (10:30 AM Atlantic) · morning window · ECB 9:15 AM ET · AMZN/INTC after the close",
+  "flip": {
+    "long": "NQ reclaims the overnight high 29,794.25 (≈ NDX 29,628, right at Wednesday's 29,618 low), which would mean the Alphabet gap is being bought. Stronger back above Wednesday's settle 29,979.50.",
+    "short": "Stays SHORT while NQ is below 29,794.25. Adds conviction on a break of the overnight low 29,482.50 (≈ NDX 29,316, under Tuesday's 29,340 low), especially with the 10-year holding above 5.00%."
+  },
+  "thesis": "There's a small short edge at the open, low conviction. The NDX rose 0.5% Wednesday to 29,813.16 (range 29,618.42–29,848.71) ahead of the Fed [1]. After the close, **Alphabet reported its first EPS and revenue double miss since 2022**, with Search missing again and free cash flow negative ~$9B on AI spending; the stock is about −10% premarket, on track for its worst post-earnings reaction ever [3,4,5]. Microsoft is +2–4% on 48% Azure growth and lower capex guidance, but software and chips are being sold with Alphabet (ServiceNow about −18 to −20%, Fortinet about −25%, Marvell −11%, AMD and Intel lower) [3,5,6]. **NQ is −403 pts / −1.34% at 29,576.50 (8:37 AM ET)**, in the lower half of a 29,482.50–29,794.25 overnight range [2]. With a ~166-pt futures premium, that implies a cash open near ~29,410, **below Wednesday's 29,618 low and Tuesday's 29,651 close**, a clean gap out of the prior range [1,2]. Macro doesn't help: the 8:30 data was hot on growth (Q3 GDP 3.4% vs ~3.2%) and in line on inflation (core PCE 0.3% m/m, 3.1% y/y), which keeps a December hike (~81% priced) on the table, and the 10-year is back at ~5.02% [7,8,9]. Oil is mixed (WTI ~$101.7 flat, Brent ~$110.5) and the dollar is a touch firmer at ~102.1 [9]. So the call is **a small SHORT while NQ stays under its overnight high**, but the gap is already large, so expect two-way trade and size down into Amazon tonight.",
+  "evidence_cutoff": "Thu Oct 29, 2026, 8:50 AM ET (9:50 AM Atlantic). Latest futures quote: 8:37 AM ET (Yahoo, may be delayed).",
+  "stats": [
+    {
+      "label": "NQ futures (pre-mkt)",
+      "value": "29,576.50",
+      "delta": "−403.00 / −1.34%",
+      "dir": "down",
+      "note": "Yahoo 8:37 AM ET vs Wed settle 29,979.50"
+    },
+    {
+      "label": "NQ overnight range",
+      "value": "29,482.50 – 29,794.25",
+      "delta": "",
+      "dir": "flat",
+      "note": "Yahoo Oct 29 bar; trading in the lower half"
+    },
+    {
+      "label": "NDX close (Wed)",
+      "value": "29,813.16",
+      "delta": "H 29,848.71 / L 29,618.42",
+      "dir": "up",
+      "note": "+161.72 / +0.55% vs Tue 29,651.44"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "5.02%",
+      "delta": "+0.03 vs 4.99 ref.",
+      "dir": "down",
+      "note": "Yahoo ^TNX 8:32 AM ET (range 5.011–5.028); Wed close 5.01–5.045% by source"
+    },
+    {
+      "label": "Dollar index",
+      "value": "102.14",
+      "delta": "≈ flat",
+      "dir": "flat",
+      "note": "Yahoo 8:38 AM ET; day range 102.06–102.33"
+    },
+    {
+      "label": "WTI / Brent",
+      "value": "$101.73 / $110.48",
+      "delta": "≈ flat / lower",
+      "dir": "flat",
+      "note": "Yahoo 8:37 AM ET. Brent's front month rolled, so its % change isn't comparable"
+    },
+    {
+      "label": "Q3 GDP (adv.)",
+      "value": "3.4%",
+      "delta": "cons. 3.1–3.2%",
+      "dir": "up",
+      "note": "Beat; prior 2.2%. Real final sales 1.7% vs 2.0%"
+    },
+    {
+      "label": "Core PCE (Sep)",
+      "value": "0.3% m/m · 3.1% y/y",
+      "delta": "in line",
+      "dir": "flat",
+      "note": "Headline 0.5% m/m, 3.6% y/y; spending 0.5% vs 0.6%"
+    },
+    {
+      "label": "Fed odds",
+      "value": "Dec hike ~81%",
+      "delta": "Held Oct 28 (10–2)",
+      "dir": "flat",
+      "note": "CME FedWatch per Reuters; Cook and Hammack dissented for a hike"
+    },
+    {
+      "label": "VIX",
+      "value": "17.08",
+      "delta": "+0.17 / +1.0%",
+      "dir": "down",
+      "note": "Yahoo 8:32 AM ET vs Wed 16.91"
+    }
+  ],
+  "key_levels": [
+    {
+      "label": "NQ Wed settle",
+      "value": "29,979.50",
+      "role": "resistance",
+      "note": "Full gap fill (≈ NDX 29,813, Wed close)"
+    },
+    {
+      "label": "NQ overnight high",
+      "value": "29,794.25",
+      "role": "long",
+      "note": "Reclaim → flip LONG (≈ NDX 29,628)"
+    },
+    {
+      "label": "Wednesday low (NDX)",
+      "value": "29,618.42",
+      "role": "pivot",
+      "note": "≈ NQ 29,785. Cash staying below = gap out of range holds"
+    },
+    {
+      "label": "Implied NDX open",
+      "value": "~29,410",
+      "role": "pivot",
+      "note": "Estimate: NQ 29,576.50 minus ~166-pt basis (Wed settle vs close)"
+    },
+    {
+      "label": "Tuesday low (NDX)",
+      "value": "29,340.54",
+      "role": "support",
+      "note": "≈ NQ 29,507; first downside test"
+    },
+    {
+      "label": "NQ overnight low",
+      "value": "29,482.50",
+      "role": "short",
+      "note": "Break → stronger SHORT (≈ NDX 29,316)"
+    },
+    {
+      "label": "Oct 22–23 lows (NDX)",
+      "value": "28,855 / 28,826",
+      "role": "support",
+      "note": "Bottom of last week's AI selloff"
+    },
+    {
+      "label": "US 10-yr yield",
+      "value": "5.00%",
+      "role": "pivot",
+      "note": "Holding above = pressure on tech; back under = relief"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why this window",
+      "bullets": [
+        {
+          "label": "The gap is down and out of Wednesday's range.",
+          "text": "NQ is −1.3% at 29,576.50 in the lower half of its 29,482.50–29,794.25 overnight range [2]. On a ~166-pt premium, that implies a cash open around ~29,410, below Wednesday's 29,618 low and Tuesday's 29,651 close, which breaks the three-day rebound [1,2]. That's an estimate, not a quote."
+        },
+        {
+          "label": "A megacap catalyst, and it's spreading.",
+          "text": "Alphabet missed on EPS and revenue, Search missed for a second quarter, and free cash flow was −$9.07B; the stock is about −10% premarket [3,4,5]. The selling is spreading to software and chips (ServiceNow, Fortinet, Marvell, AMD, Intel), while Dow futures are higher, so it's a tech-specific move [3,5,6]. Microsoft's +2–4% on Azure is the main offset [4,6]."
+        },
+        {
+          "label": "Macro leans hawkish.",
+          "text": "GDP beat (3.4% vs ~3.2%) and core PCE was in line at 0.3% m/m, 3.1% y/y, so nothing argues for easier policy; December hike odds are ~81% after Wednesday's 10–2 hold with two hike dissents [7,8,3]. The 10-year is ~5.02% and VIX is slightly higher at ~17.1 [9]."
+        },
+        {
+          "label": "The morning is the clean window.",
+          "text": "Still to come: the ECB decision (9:15 AM ET) and press conference, then Amazon and Intel after the close (Amazon call 5:00 PM ET) [6,10]. No Fed speakers were found on today's calendar."
+        }
+      ]
+    },
+    {
+      "title": "Opposing case",
+      "bullets": [
+        {
+          "label": "Bull case:",
+          "text": "A −1.3% gap on one company's miss can fill fast, especially with Microsoft green, strong GDP, in-line core PCE, Merck beating, and oil off its highs [4,6,7]. Buy-the-dip flows into Amazon's report could pull NQ back to the overnight high and Wednesday's range."
+        },
+        {
+          "label": "Bear case:",
+          "text": "This is the AI-spending worry from last week's selloff coming back: investors are punishing capex without monetization, and Alphabet is a large NDX weight [3,4]. With the 10-year at 5% and a December hike mostly priced, there's little rate relief to cushion tech, and a break of Tuesday's low opens the Oct 22–23 lows [1,3,9]."
+        }
+      ]
+    },
+    {
+      "title": "What would change it",
+      "bullets": [
+        {
+          "label": "Stay/scale SHORT:",
+          "text": "Cash NDX stays below Wednesday's 29,618 low (≈ NQ 29,785) through the first 30 minutes. Add on a break of the NQ overnight low 29,482.50 and Tuesday's 29,340 NDX low, ideally with GOOGL making new lows and the 10-year above 5.00%."
+        },
+        {
+          "label": "Flip to LONG:",
+          "text": "NQ reclaims the overnight high 29,794.25 (≈ NDX 29,628) and holds, meaning the gap is being bought. Stronger on a move back toward Wednesday's settle 29,979.50."
+        },
+        {
+          "label": "Flip to STAND ASIDE:",
+          "text": "If the open chops between the overnight low and high (29,482.50–29,794.25) with no follow-through in the first 30 minutes, there's no edge. Cut size into the close either way with Amazon and Intel after the bell."
+        },
+        {
+          "label": "Wildcards:",
+          "text": "The ECB at 9:15 AM ET, US–Iran headlines ahead of the Nov 3 midterms and oil, and any early read-through to Amazon's AWS and capex [6,10]."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "text": "Yahoo Finance, NASDAQ-100 (^NDX) daily data: Wed Oct 28 O 29,732.04 / H 29,848.71 / L 29,618.42 / C 29,813.16; Tue Oct 27 L 29,340.54 / C 29,651.44; Oct 22–23 lows 28,855.10 / 28,825.72.",
+      "url": "https://finance.yahoo.com/quote/%5ENDX/history/",
+      "link_label": "finance.yahoo.com/quote/^NDX/history"
+    },
+    {
+      "id": 2,
+      "text": "Yahoo Finance, NQ=F: 29,576.50 at 8:37 AM ET; Oct 29 session O 29,793.50 / H 29,794.25 / L 29,482.50; Oct 28 settle 29,979.50 (session high 30,178.00).",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/",
+      "link_label": "finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "id": 3,
+      "text": "Reuters via Investing.com, \"Nasdaq futures slide as Alphabet results intensify AI spending fears\" (Oct 29, updated 7:37 AM ET): NQ −0.93% at 7:02 AM; GOOGL −10.4% premarket; MSFT +2.1%; Fortinet −26.2%, ServiceNow −19.6%; >81% chance of a December hike (CME FedWatch).",
+      "url": "https://www.investing.com/news/economy-news/nasdaq-futures-slide-as-mixed-big-tech-results-test-ai-trade-4981842",
+      "link_label": "investing.com (Reuters)"
+    },
+    {
+      "id": 4,
+      "text": "CNBC Morning Squawk, \"Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss\" (Oct 29, 7:41 AM ET): first EPS and revenue double miss since Q4 2022; Search missed for a second quarter; Azure +48%, capex guidance cut to $170B.",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
+      "link_label": "cnbc.com"
+    },
+    {
+      "id": 5,
+      "text": "Invezz, \"Nasdaq futures plunge 260 points\" (Oct 29): Alphabet revenue $127.6B, free cash flow −$9.07B; Fortinet −25%, ServiceNow −18.2%, AMD −2.8%, Intel −3.7%; MSFT +3.6%.",
+      "url": "https://invezz.com/news/2026/10/29/nasdaq-futures-plunge-260-points-5-things-to-know-before-wall-street-opens/",
+      "link_label": "invezz.com"
+    },
+    {
+      "id": 6,
+      "text": "TradingKey and FXStreet premarket notes (Oct 29): Google and Marvell −11%+; Amazon and Intel report after the close; Merck beat and raised; Fed held 10–2 with Cook and Hammack voting to hike.",
+      "url": "https://www.fxstreet.com/analysis/fed-holds-steady-msft-selivered-goog-crashed-markets-await-pce-gdp-and-amzn-202610291145",
+      "link_label": "fxstreet.com"
+    },
+    {
+      "id": 7,
+      "text": "CNBC, \"Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates\" (Oct 29, 8:32 AM ET): PCE +0.5% m/m, 3.6% y/y; core 0.3% / 3.1%, in line; spending +0.5% vs 0.6%; income +0.2%.",
+      "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+      "link_label": "cnbc.com (PCE/GDP)"
+    },
+    {
+      "id": 8,
+      "text": "InvestingLive, \"US GDP Advance for the 3rd quarter 3.4% vs 3.2% estimate\": real final sales 1.7% vs 2.0%; prior revised to 2.2%.",
+      "url": "https://investinglive.com/news/us-gdp-advance-for-the-3rd-quarter-3-4-vs-3-2-estimate/",
+      "link_label": "investinglive.com"
+    },
+    {
+      "id": 9,
+      "text": "Yahoo Finance quotes, ~8:32–8:38 AM ET: ^TNX 5.020 (range 5.011–5.028); DX-Y.NYB 102.137; CL=F 101.73; BZ=F 110.48; ^VIX 17.08 (Wed 16.91).",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "link_label": "finance.yahoo.com/quote/^TNX"
+    },
+    {
+      "id": 10,
+      "text": "for-ex.news economic calendar, Oct 29: US data at 8:30 AM ET (claims est. 199K, prior 194K); ECB decision 13:15 GMT (9:15 AM ET), press conference 9:45 AM ET. Amazon Q3 call 5:00 PM ET (aboutamazon.com).",
+      "url": "https://for-ex.news/en/calendar/",
+      "link_label": "for-ex.news"
+    }
+  ],
+  "data_notes": "NQ quotes are from Yahoo and may be delayed ~10 min. NQ's decline grew overnight: −1.22% (12:25 AM, Yahoo via Gotrade), −0.93% (7:02 AM, Reuters), −1.2% (FXStreet, European hours), −1.34% (8:37 AM). The implied NDX open uses Wednesday's ~166-pt premium (NQ settle 29,979.50 vs NDX close 29,813.16) and is an estimate. GDP consensus differs by source (3.1% CNBC/Dow Jones vs 3.2% others); it beat both. The weekly jobless claims actual wasn't found before the cutoff (estimate 199K). Brent's Yahoo front month appears to have rolled, so its drop vs Wednesday isn't a real −4.6% move. Fed odds are from Reuters' citation of CME FedWatch; FedWatch wasn't checked directly. No Fed speakers were found on today's calendar. The BoE decision result wasn't checked."
+}
